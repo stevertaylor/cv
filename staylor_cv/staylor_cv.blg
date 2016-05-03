@@ -3,44 +3,44 @@ Capacity: max_strings=35307, hash_size=35307, hash_prime=30011
 The top-level auxiliary file: staylor_cv.aux
 The style file: plain.bst
 Database file #1: staylor_cv.bib
-You've used 0 entries,
+You've used 21 entries,
             2118 wiz_defined-function locations,
-            496 strings with 3993 characters,
-and the built_in function-call counts, 18 in all, are:
-= -- 0
-> -- 0
+            609 strings with 15550 characters,
+and the built_in function-call counts, 19797 in all, are:
+= -- 1492
+> -- 2398
 < -- 0
-+ -- 0
-- -- 0
-* -- 2
-:= -- 7
-add.period$ -- 0
-call.type$ -- 0
-change.case$ -- 0
++ -- 955
+- -- 934
+* -- 2246
+:= -- 3680
+add.period$ -- 63
+call.type$ -- 21
+change.case$ -- 530
 chr.to.int$ -- 0
-cite$ -- 0
-duplicate$ -- 0
-empty$ -- 1
-format.name$ -- 0
-if$ -- 1
+cite$ -- 21
+duplicate$ -- 231
+empty$ -- 544
+format.name$ -- 934
+if$ -- 3485
 int.to.chr$ -- 0
-int.to.str$ -- 0
-missing$ -- 0
-newline$ -- 3
-num.names$ -- 0
-pop$ -- 0
+int.to.str$ -- 21
+missing$ -- 21
+newline$ -- 108
+num.names$ -- 42
+pop$ -- 488
 preamble$ -- 1
-purify$ -- 0
+purify$ -- 509
 quote$ -- 0
-skip$ -- 1
+skip$ -- 148
 stack$ -- 0
-substring$ -- 0
-swap$ -- 0
+substring$ -- 501
+swap$ -- 21
 text.length$ -- 0
 text.prefix$ -- 0
 top$ -- 0
-type$ -- 0
+type$ -- 84
 warning$ -- 0
-while$ -- 0
-width$ -- 0
-write$ -- 2
+while$ -- 63
+width$ -- 23
+write$ -- 233

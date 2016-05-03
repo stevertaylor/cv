@@ -1,3 +1,215 @@
-\begin{thebibliography}{}
+\begin{thebibliography}{10}
+
+\bibitem{arz+16}
+Z.~{Arzoumanian}, A.~{Brazier}, S.~{Burke-Spolaor}, S.~J. {Chamberlin},
+  S.~{Chatterjee}, B.~{Christy}, J.~M. {Cordes}, N.~J. {Cornish}, K.~{Crowter},
+  P.~B. {Demorest}, X.~{Deng}, T.~{Dolch}, J.~A. {Ellis}, R.~D. {Ferdman},
+  E.~{Fonseca}, N.~{Garver-Daniels}, M.~E. {Gonzalez}, F.~{Jenet}, G.~{Jones},
+  M.~L. {Jones}, V.~M. {Kaspi}, M.~{Koop}, M.~T. {Lam}, T.~J.~W. {Lazio},
+  L.~{Levin}, A.~N. {Lommen}, D.~R. {Lorimer}, J.~{Luo}, R.~S. {Lynch}, D.~R.
+  {Madison}, M.~A. {McLaughlin}, S.~T. {McWilliams}, C.~M.~F. {Mingarelli},
+  D.~J. {Nice}, N.~{Palliyaguru}, T.~T. {Pennucci}, S.~M. {Ransom},
+  L.~{Sampson}, S.~A. {Sanidas}, A.~{Sesana}, X.~{Siemens}, J.~{Simon}, I.~H.
+  {Stairs}, D.~R. {Stinebring}, K.~{Stovall}, J.~{Swiggum}, \textbf{{Taylor},
+  S.~R.}, M.~{Vallisneri}, R.~{van Haasteren}, Y.~{Wang}, W.~W. {Zhu}, and {The
+  NANOGrav Collaboration}.
+\newblock {The NANOGrav Nine-year Data Set: Limits on the Isotropic Stochastic
+  Gravitational Wave Background}.
+\newblock {\em \apj}, 821:13, April 2016.
+
+\bibitem{bps+16}
+S.~{Babak}, A.~{Petiteau}, A.~{Sesana}, P.~{Brem}, P.~A. {Rosado},
+  \textbf{{Taylor}, S.~R.}, A.~{Lassus}, J.~W.~T. {Hessels}, C.~G. {Bassa},
+  M.~{Burgay}, R.~N. {Caballero}, D.~J. {Champion}, I.~{Cognard},
+  G.~{Desvignes}, J.~R. {Gair}, L.~{Guillemot}, G.~H. {Janssen},
+  R.~{Karuppusamy}, M.~{Kramer}, P.~{Lazarus}, K.~J. {Lee}, L.~{Lentati},
+  K.~{Liu}, C.~M.~F. {Mingarelli}, S.~{Os{\l}owski}, D.~{Perrodin},
+  A.~{Possenti}, M.~B. {Purver}, S.~{Sanidas}, R.~{Smits}, B.~{Stappers},
+  G.~{Theureau}, C.~{Tiburzi}, R.~{van Haasteren}, A.~{Vecchio}, and J.~P.~W.
+  {Verbiest}.
+\newblock {European Pulsar Timing Array limits on continuous gravitational
+  waves from individual supermassive black hole binaries}.
+\newblock {\em \mnras}, 455:1665--1679, January 2016.
+
+\bibitem{cll+16}
+R.~N. {Caballero}, K.~J. {Lee}, L.~{Lentati}, G.~{Desvignes}, D.~J. {Champion},
+  J.~P.~W. {Verbiest}, G.~H. {Janssen}, B.~W. {Stappers}, M.~{Kramer},
+  P.~{Lazarus}, A.~{Possenti}, C.~{Tiburzi}, D.~{Perrodin}, S.~{Os{\l}owski},
+  S.~{Babak}, C.~G. {Bassa}, P.~{Brem}, M.~{Burgay}, I.~{Cognard}, J.~R.
+  {Gair}, E.~{Graikou}, L.~{Guillemot}, J.~W.~T. {Hessels}, R.~{Karuppusamy},
+  A.~{Lassus}, K.~{Liu}, J.~{McKee}, C.~M.~F. {Mingarelli}, A.~{Petiteau},
+  M.~B. {Purver}, P.~A. {Rosado}, S.~{Sanidas}, A.~{Sesana}, G.~{Shaifullah},
+  R.~{Smits}, \textbf{{Taylor}, S.~R.}, G.~{Theureau}, R.~{van Haasteren}, and
+  A.~{Vecchio}.
+\newblock {The noise properties of 42 millisecond pulsars from the European
+  Pulsar Timing Array and their impact on gravitational-wave searches}.
+\newblock {\em \mnras}, 457:4421--4440, April 2016.
+
+\bibitem{dcl+16}
+G.~{Desvignes}, R.~N. {Caballero}, L.~{Lentati}, J.~P.~W. {Verbiest}, D.~J.
+  {Champion}, B.~W. {Stappers}, G.~H. {Janssen}, P.~{Lazarus},
+  S.~{Os{\l}owski}, S.~{Babak}, C.~G. {Bassa}, P.~{Brem}, M.~{Burgay},
+  I.~{Cognard}, J.~R. {Gair}, E.~{Graikou}, L.~{Guillemot}, J.~W.~T. {Hessels},
+  A.~{Jessner}, C.~{Jordan}, R.~{Karuppusamy}, M.~{Kramer}, A.~{Lassus},
+  K.~{Lazaridis}, K.~J. {Lee}, K.~{Liu}, A.~G. {Lyne}, J.~{McKee}, C.~M.~F.
+  {Mingarelli}, D.~{Perrodin}, A.~{Petiteau}, A.~{Possenti}, M.~B. {Purver},
+  P.~A. {Rosado}, S.~{Sanidas}, A.~{Sesana}, G.~{Shaifullah}, R.~{Smits},
+  \textbf{{Taylor}, S.~R.}, G.~{Theureau}, C.~{Tiburzi}, R.~{van Haasteren},
+  and A.~{Vecchio}.
+\newblock {High-precision timing of 42 millisecond pulsars with the European
+  Pulsar Timing Array}.
+\newblock {\em \mnras}, 458:3341--3380, May 2016.
+
+\bibitem{grtm14}
+J.~{Gair}, J.~D. {Romano}, \textbf{{Taylor}, S.}, and C.~M.~F. {Mingarelli}.
+\newblock {Mapping gravitational-wave backgrounds using methods from CMB
+  analysis: Application to pulsar timing arrays}.
+\newblock {\em \prd}, 90(8):082001, October 2014.
+
+\bibitem{grt15}
+J.~R. {Gair}, J.~D. {Romano}, and \textbf{{Taylor}, S.~R.}
+\newblock {Mapping gravitational-wave backgrounds of arbitrary polarisation
+  using pulsar timing arrays}.
+\newblock {\em \prd}, 92(10):102003, November 2015.
+
+\bibitem{hmgt15}
+E.~A. {Huerta}, S.~T. {McWilliams}, J.~R. {Gair}, and \textbf{{Taylor}, S.~R.}
+\newblock {Detection of eccentric supermassive black hole binaries with pulsar
+  timing arrays: Signal-to-noise ratio calculations}.
+\newblock {\em \prd}, 92(6):063010, September 2015.
+
+\bibitem{lah+13}
+L.~{Lentati}, P.~{Alexander}, M.~P. {Hobson}, \textbf{{Taylor}, S.}, J.~{Gair},
+  S.~T. {Balan}, and R.~{van Haasteren}.
+\newblock {Hyper-efficient model-independent Bayesian method for the analysis
+  of pulsar timing data}.
+\newblock {\em \prd}, 87(10):104021, May 2013.
+
+\bibitem{ls+16}
+L.~{Lentati}, R.~M. {Shannon}, W.~A. {Coles}, J.~P.~W. {Verbiest}, R.~{van
+  Haasteren}, J.~A. {Ellis}, R.~N. {Caballero}, R.~N. {Manchester},
+  Z.~{Arzoumanian}, S.~{Babak}, C.~G. {Bassa}, N.~D.~R. {Bhat}, P.~{Brem},
+  M.~{Burgay}, S.~{Burke-Spolaor}, D.~{Champion}, S.~{Chatterjee},
+  I.~{Cognard}, J.~M. {Cordes}, S.~{Dai}, P.~{Demorest}, G.~{Desvignes},
+  T.~{Dolch}, R.~D. {Ferdman}, E.~{Fonseca}, J.~R. {Gair}, M.~E. {Gonzalez},
+  E.~{Graikou}, L.~{Guillemot}, J.~W.~T. {Hessels}, G.~{Hobbs}, G.~H.
+  {Janssen}, G.~{Jones}, R.~{Karuppusamy}, M.~{Keith}, M.~{Kerr}, M.~{Kramer},
+  M.~T. {Lam}, P.~D. {Lasky}, A.~{Lassus}, P.~{Lazarus}, T.~J.~W. {Lazio},
+  K.~J. {Lee}, L.~{Levin}, K.~{Liu}, R.~S. {Lynch}, D.~R. {Madison},
+  J.~{McKee}, M.~{McLaughlin}, S.~T. {McWilliams}, C.~M.~F. {Mingarelli}, D.~J.
+  {Nice}, S.~{Os{\l}owski}, T.~T. {Pennucci}, B.~B.~P. {Perera}, D.~{Perrodin},
+  A.~{Petiteau}, A.~{Possenti}, S.~M. {Ransom}, D.~{Reardon}, P.~A. {Rosado},
+  S.~A. {Sanidas}, A.~{Sesana}, G.~{Shaifullah}, X.~{Siemens}, R.~{Smits},
+  I.~{Stairs}, B.~{Stappers}, D.~R. {Stinebring}, K.~{Stovall}, J.~{Swiggum},
+  \textbf{{Taylor}, S.~R.}, G.~{Theureau}, C.~{Tiburzi}, L.~{Toomey},
+  M.~{Vallisneri}, W.~{van Straten}, A.~{Vecchio}, J.-B. {Wang}, Y.~{Wang},
+  X.~P. {You}, W.~W. {Zhu}, and X.-J. {Zhu}.
+\newblock {From spin noise to systematics: stochastic processes in the first
+  International Pulsar Timing Array data release}.
+\newblock {\em \mnras}, 458:2161--2187, May 2016.
+
+\bibitem{ltm+15}
+L.~{Lentati}, \textbf{{Taylor}, S.~R.}, C.~M.~F. {Mingarelli}, A.~{Sesana},
+  S.~A. {Sanidas}, A.~{Vecchio}, R.~N. {Caballero}, K.~J. {Lee}, R.~{van
+  Haasteren}, S.~{Babak}, C.~G. {Bassa}, P.~{Brem}, M.~{Burgay}, D.~J.
+  {Champion}, I.~{Cognard}, G.~{Desvignes}, J.~R. {Gair}, L.~{Guillemot},
+  J.~W.~T. {Hessels}, G.~H. {Janssen}, R.~{Karuppusamy}, M.~{Kramer},
+  A.~{Lassus}, P.~{Lazarus}, K.~{Liu}, S.~{Os{\l}owski}, D.~{Perrodin},
+  A.~{Petiteau}, A.~{Possenti}, M.~B. {Purver}, P.~A. {Rosado}, R.~{Smits},
+  B.~{Stappers}, G.~{Theureau}, C.~{Tiburzi}, and J.~P.~W. {Verbiest}.
+\newblock {European Pulsar Timing Array limits on an isotropic stochastic
+  gravitational-wave background}.
+\newblock {\em \mnras}, 453:2576--2598, November 2015.
+
+\bibitem{mtg15}
+C.~J. {Moore}, \textbf{{Taylor}, S.~R.}, and J.~R. {Gair}.
+\newblock {Estimating the sensitivity of pulsar timing arrays}.
+\newblock {\em Classical and Quantum Gravity}, 32(5):055004, March 2015.
+
+\bibitem{rtc+15}
+J.~D. {Romano}, \textbf{{Taylor}, S.~R.}, N.~J. {Cornish}, J.~{Gair}, C.~M.~F.
+  {Mingarelli}, and R.~{van Haasteren}.
+\newblock {Phase-coherent mapping of gravitational-wave backgrounds using
+  ground-based laser interferometers}.
+\newblock {\em \prd}, 92(4):042003, August 2015.
+
+\bibitem{teg14}
+\textbf{{Taylor}, S.}, J.~{Ellis}, and J.~{Gair}.
+\newblock {Accelerated Bayesian model-selection and parameter-estimation in
+  continuous gravitational-wave searches with pulsar-timing arrays}.
+\newblock {\em \prd}, 90(10):104028, November 2014.
+
+\bibitem{tg12}
+\textbf{{Taylor}, S.~R.} and J.~R. {Gair}.
+\newblock {Cosmology with the lights off: Standard sirens in the Einstein
+  Telescope era}.
+\newblock {\em \prd}, 86(2):023502, July 2012.
+
+\bibitem{tg13}
+\textbf{{Taylor}, S.~R.} and J.~R. {Gair}.
+\newblock {Searching for anisotropic gravitational-wave backgrounds using
+  pulsar timing arrays}.
+\newblock {\em \prd}, 88(8):084001, October 2013.
+
+\bibitem{tgl13}
+\textbf{{Taylor}, S.~R.}, J.~R. {Gair}, and L.~{Lentati}.
+\newblock {Weighing the evidence for a gravitational-wave background in the
+  first International Pulsar Timing Array data challenge}.
+\newblock {\em \prd}, 87(4):044035, February 2013.
+
+\bibitem{tgm12}
+\textbf{{Taylor}, S.~R.}, J.~R. {Gair}, and I.~{Mandel}.
+\newblock {Cosmology using advanced gravitational-wave detectors alone}.
+\newblock {\em \prd}, 85(2):023535, January 2012.
+
+\bibitem{thgm16}
+\textbf{{Taylor}, S.~R.}, E.~A. {Huerta}, J.~R. {Gair}, and S.~T. {McWilliams}.
+\newblock {Detecting Eccentric Supermassive Black Hole Binaries with Pulsar
+  Timing Arrays: Resolvable Source Strategies}.
+\newblock {\em \apj}, 817:70, January 2016.
+
+\bibitem{tmg+15}
+\textbf{{Taylor}, S.~R.}, C.~M.~F. {Mingarelli}, J.~R. {Gair}, A.~{Sesana},
+  G.~{Theureau}, S.~{Babak}, C.~G. {Bassa}, P.~{Brem}, M.~{Burgay}, R.~N.
+  {Caballero}, D.~J. {Champion}, I.~{Cognard}, G.~{Desvignes}, L.~{Guillemot},
+  J.~W.~T. {Hessels}, G.~H. {Janssen}, R.~{Karuppusamy}, M.~{Kramer},
+  A.~{Lassus}, P.~{Lazarus}, L.~{Lentati}, K.~{Liu}, S.~{Os{\l}owski},
+  D.~{Perrodin}, A.~{Petiteau}, A.~{Possenti}, M.~B. {Purver}, P.~A. {Rosado},
+  S.~A. {Sanidas}, R.~{Smits}, B.~{Stappers}, C.~{Tiburzi}, R.~{van Haasteren},
+  A.~{Vecchio}, J.~P.~W. {Verbiest}, and {EPTA Collaboration}.
+\newblock {Limits on Anisotropy in the Nanohertz Stochastic Gravitational Wave
+  Background}.
+\newblock {\em Physical Review Letters}, 115(4):041101, July 2015.
+
+\bibitem{tve+16}
+\textbf{{Taylor}, S.~R.}, M.~{Vallisneri}, J.~A. {Ellis}, C.~M.~F.
+  {Mingarelli}, T.~J.~W. {Lazio}, and R.~{van Haasteren}.
+\newblock {Are We There Yet? Time to Detection of Nanohertz Gravitational Waves
+  Based on Pulsar-timing Array Limits}.
+\newblock {\em \apjl}, 819:L6, March 2016.
+
+\bibitem{vlh+16}
+J.~P.~W. {Verbiest}, L.~{Lentati}, G.~{Hobbs}, R.~{van Haasteren}, P.~B.
+  {Demorest}, G.~H. {Janssen}, J.-B. {Wang}, G.~{Desvignes}, R.~N. {Caballero},
+  M.~J. {Keith}, D.~J. {Champion}, Z.~{Arzoumanian}, S.~{Babak}, C.~G. {Bassa},
+  N.~D.~R. {Bhat}, A.~{Brazier}, P.~{Brem}, M.~{Burgay}, S.~{Burke-Spolaor},
+  S.~J. {Chamberlin}, S.~{Chatterjee}, B.~{Christy}, I.~{Cognard}, J.~M.
+  {Cordes}, S.~{Dai}, T.~{Dolch}, J.~A. {Ellis}, R.~D. {Ferdman}, E.~{Fonseca},
+  J.~R. {Gair}, N.~E. {Garver-Daniels}, P.~{Gentile}, M.~E. {Gonzalez},
+  E.~{Graikou}, L.~{Guillemot}, J.~W.~T. {Hessels}, G.~{Jones},
+  R.~{Karuppusamy}, M.~{Kerr}, M.~{Kramer}, M.~T. {Lam}, P.~D. {Lasky},
+  A.~{Lassus}, P.~{Lazarus}, T.~J.~W. {Lazio}, K.~J. {Lee}, L.~{Levin},
+  K.~{Liu}, R.~S. {Lynch}, A.~G. {Lyne}, J.~{Mckee}, M.~A. {McLaughlin}, S.~T.
+  {McWilliams}, D.~R. {Madison}, R.~N. {Manchester}, C.~M.~F. {Mingarelli},
+  D.~J. {Nice}, S.~{Os{\l}owski}, N.~T. {Palliyaguru}, T.~T. {Pennucci},
+  B.~B.~P. {Perera}, D.~{Perrodin}, A.~{Possenti}, A.~{Petiteau}, S.~M.
+  {Ransom}, D.~{Reardon}, P.~A. {Rosado}, S.~A. {Sanidas}, A.~{Sesana},
+  G.~{Shaifullah}, R.~M. {Shannon}, X.~{Siemens}, J.~{Simon}, R.~{Smits},
+  R.~{Spiewak}, I.~H. {Stairs}, B.~W. {Stappers}, D.~R. {Stinebring},
+  K.~{Stovall}, J.~K. {Swiggum}, \textbf{{Taylor}, S.~R.}, G.~{Theureau},
+  C.~{Tiburzi}, L.~{Toomey}, M.~{Vallisneri}, W.~{van Straten}, A.~{Vecchio},
+  Y.~{Wang}, L.~{Wen}, X.~P. {You}, W.~W. {Zhu}, and X.-J. {Zhu}.
+\newblock {The International Pulsar Timing Array: First data release}.
+\newblock {\em \mnras}, 458:1267--1288, May 2016.
 
 \end{thebibliography}
