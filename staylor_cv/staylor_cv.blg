@@ -1,6 +1,7 @@
 This is BibTeX, Version 0.99d (TeX Live 2014)
 Capacity: max_strings=35307, hash_size=35307, hash_prime=30011
 The top-level auxiliary file: staylor_cv.aux
+I found no \citation commands---while reading file staylor_cv.aux
 I found no \bibdata command---while reading file staylor_cv.aux
 I found no \bibstyle command---while reading file staylor_cv.aux
 You've used 0 entries,
@@ -44,4 +45,4 @@ warning$ -- 0
 while$ -- 0
 width$ -- 0
 write$ -- 0
-(There were 2 error messages)
+(There were 3 error messages)
