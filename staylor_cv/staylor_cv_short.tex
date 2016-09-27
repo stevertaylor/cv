@@ -1,0 +1,298 @@
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+% "ModernCV" CV and Cover Letter
+% LaTeX Template
+% Version 1.1 (9/12/12)
+%
+% This template has been downloaded from:
+% http://www.LaTeXTemplates.com
+%
+% Original author:
+% Xavier Danaux (xdanaux@gmail.com)
+%
+% License:
+% CC BY-NC-SA 3.0 (http://creativecommons.org/licenses/by-nc-sa/3.0/)
+%
+% Important note:
+% This template requires the moderncv.cls and .sty files to be in the same
+% directory as this .tex file. These files provide the resume style and themes
+% used for structuring the document.
+%
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+
+%----------------------------------------------------------------------------------------
+%   PACKAGES AND OTHER DOCUMENT CONFIGURATIONS
+%----------------------------------------------------------------------------------------
+
+\documentclass[11pt,letterpaper,sans]{moderncv} % Font sizes: 10, 11, or 12; paper sizes: a4paper, letterpaper, a5paper, legalpaper, executivepaper or landscape; font families: sans or roman
+
+\moderncvstyle{banking} % CV theme - options include: 'casual' (default), 'classic', 'oldstyle' and 'banking'
+\moderncvcolor{blue} % CV color - options include: 'blue' (default), 'orange', 'green', 'red', 'purple', 'grey' and 'black'
+%\usepackage[scale=0.8]{geometry} % Reduce document margins
+\usepackage[margin=1in]{geometry}
+%\setlength{\hintscolumnwidth}{3cm} % Uncomment to change the width of the dates column
+%\setlength{\makecvtitlenamewidth}{10cm} % For the 'classic' style, uncomment to adjust the width of the space allocated to your name
+
+\def\prd{{Phys. Rev.} D}
+\def\PRL{{Phys.Rev.} Lett}
+\def\apjl{{Astrophys. J.} Lett}
+\def\apj{{Astrophys. J.}}
+\def\CQG{{Class. Quantum Grav.}}
+\def\aaps{{A\&AS}}
+\def\pasj{{PASJ}}
+\def\mnras{{MNRAS}} 
+\def\aapr{{A\&ARv}}
+\def\aap{{A\&A}}
+\def\na{{New Astronomy}}
+\def\ptp{{Progress of Theoretical Physics}}
+\def\apjs{{ApJS}}
+\def\araa{{ARA\&A}}
+\def\ssr{{Space Sci. Rev.}} 
+
+\usepackage{etoolbox}% http://ctan.org/pkg/etoolbox
+\makeatletter
+\newcommand*{\emailA}[1]{\def\@emailA{#1}}
+\newcommand*{\emailB}[1]{\def\@emailB{#1}}
+\patchcmd{\maketitle}% <cmd>
+  {\ifthenelse{\isundefined{\@email}}{}{\addtomaketitle{\emailsymbol\emaillink{\@email}}}}% <search>
+  {\ifthenelse{\isundefined{\@emailA}}{}{\addtomaketitle{\emailsymbol\emaillink{\@emailA}}}%
+   \ifthenelse{\isundefined{\@emailB}}{}{\addtomaketitle{\emailsymbol\emaillink{\@emailB}}}}% <replace>
+  {}{}% <success><failure>
+\makeatother
+ 
+%----------------------------------------------------------------------------------------
+%   NAME AND CONTACT INFORMATION SECTION
+%----------------------------------------------------------------------------------------
+
+\firstname{Stephen} % Your first name
+\familyname{Taylor} % Your last name
+
+% All information in this block is optional, comment out any lines you don't need
+\title{Curriculum Vitae}
+\address{Jet Propulsion Laboratory, 4800 Oak Grove Drive}{Pasadena, CA 91109}
+\phone[mobile]{+1 (626) 689-5832}
+\emailA{Stephen.R.Taylor@jpl.nasa.gov}
+\emailB{steve.taylor1987@gmail.com}
+\homepage{stevertaylor.github.io}
+\social[github]{stevertaylor}
+\social[linkedin][linkedin.com/in/stephen-taylor-a8164787]{stephen-taylor}
+
+%----------------------------------------------------------------------------------------
+
+\begin{document}
+
+\makecvtitle % Print the CV title
+
+%----------------------------------------------------------------------------------------
+%   WORK EXPERIENCE SECTION
+%----------------------------------------------------------------------------------------
+%\vspace{-10mm}
+\section{Professional Experience}
+\cventry{2014--Present}{NASA Postdoctoral Fellow}{\textsc{NASA Jet Propulsion Laboratory}}{Pasadena, USA}{}{}
+\cventry{2014--Present}{Visting scholar (TAPIR group)}{\textsc{California Institute of Technology}}{Pasadena, USA}{}{}
+\cventry{2010--2014}{PhD candidate}{\textsc{Institute of Astronomy, University of Cambridge}}{Cambridge, UK}{}{}
+
+%----------------------------------------------------------------------------------------
+%   EDUCATION SECTION
+%----------------------------------------------------------------------------------------
+%\vspace{-3mm}
+\section{Education}
+\cventry{2010--2014}{PhD (Astronomy)}{\underline{Institute of Astronomy, University of Cambridge}}{Cambridge, UK}{}{\textbf{Advisor:} Dr.~Jonathan R.~Gair; \textbf{Thesis Title:} \textit{Exploring the cosmos with gravitational waves} \\ \textbf{Description:} A new Bayesian hierarchical modelling scheme is introduced to use compact-binary gravitational-wave standard sirens to infer the mass-distribution of the binary population, the progenitor star-formation rate, and cosmological parameters. Advanced pulsar-timing array techniques are developed to map the nanohertz gravitational-wave sky through a parametrized overlap-reduction function, and large accelerations to the Bayesian inference of single supermassive black-hole binary searches are proposed.}  
+\cventry{2006--2010}{MPhys ($1^\mathrm{st}$ Class), [ranked $1^\mathrm{st}$ in Jesus College, $4^\mathrm{th}$ across University]}{\underline{University of Oxford}}{Oxford, UK}{}{\textbf{Advisor:} Prof.~Steven Rawlings; \textbf{Thesis Title:} \textit{The Cosmic Evolution Of Black-hole Accretion}}
+
+%----------------------------------------------------------------------------------------
+%   THESIS
+%----------------------------------------------------------------------------------------
+%\vspace{-3mm}
+%\section{Doctoral Thesis}
+%\cvitem{Title}{\emph{Exploring the cosmos with gravitational waves}}
+%\cvitem{Supervisor}{Dr. Jonathan R. Gair}
+%\cvitem{Description}{A new Bayesian hierarchical modelling scheme is introduced to use compact-binary gravitational-wave standard sirens to infer the mass-distribution of the binary population, the progenitor star-formation rate, and cosmological parameters. Advanced pulsar-timing array techniques are developed to map the nanohertz gravitational-wave sky through a parametrized overlap-reduction function, and large accelerations to the Bayesian inference of single supermassive black-hole binary searches are proposed.}
+
+%\vspace{-3mm}
+\section{Grants \& Funding}
+\cvitem{``New Directions and New Opportunities for NANOGrav Astrophysics''}{Awarded $\$11$k for a proposal on behalf of the Astrophysics Working Group of NANOGrav. Funding will ensure undergraduate/graduate students and outside experts can attend a sprint week in March 2017 to advance several key areas of interest, and to achieve rapid progress on collaboration projects.}
+
+%----------------------------------------------------------------------------------------
+%   AWARDS SECTION
+%----------------------------------------------------------------------------------------
+%\vspace{-3mm}
+\section{Awards \& Prizes}
+\cvitem{2015}{International Pulsar Timing Array (IPTA) Steering Committee Prize --- ``Honourable Mention''}
+\cvitem{2015}{Gravitational Wave International Committee (GWIC) Thesis Prize --- ``Honourable Mention''}
+\cvitem{2014}{NASA Postdoctoral Fellowship (JPL)}
+\cvitem{2014}{Royal Astronomical Society Travel Award --- $\pounds 750$}
+\cvitem{2013}{Royal Astronomical Society Travel Award --- $\pounds 700$}
+\cvitem{2012--2014}{Christ's College (Cambridge) Travel Grants [various; total exceeds $\pounds 1$k]}
+\cvitem{2010}{Science and Technology Facilities Council (STFC) --- full PhD studentship award}
+\cvitem{2008}{Examiner's Prize, Oxford Physics Speaking Competition}
+\cvitem{2007}{Oxford Physics department prize for laboratory work}
+\cvitem{2007--2010}{Undergraduate Scholar of Jesus College, Oxford}
+\cvitem{2006--2010}{Regularly awarded Oxford undergraduate departmental and college examination prizes}
+
+%----------------------------------------------------------------------------------------
+%   TEACHING SECTION
+%----------------------------------------------------------------------------------------
+%\vspace{-3mm}
+\section{Teaching Experience}
+\cvitem{Jun--Aug 2016}{Co-supervisor of Caltech summer undergraduate student}
+\cvitem{May 2016}{Lecturer for Caltech's TAPIR gravitational-wave class}
+\cvitem{Mar 2016}{Co-organizer of student workshop at NANOGrav Spring meeting}
+\cvitem{Sep 2015}{Lecturer for NANOGrav detection-group workshop at Caltech}
+\cvitem{Jun 2015}{Lecturer at ``CSI PTA'' Aspen summer workshop}
+\cvitem{2011--2013}{Supervisor for Cambridge Part II undergraduate students in \textsc{Relativity}}
+\cvitem{2011}{Prepared computing coursework for Cambridge Part II undergraduate students}
+
+%----------------------------------------------------------------------------------------
+%   OUTREACH SECTION
+%----------------------------------------------------------------------------------------
+%\vspace{-3mm}
+\section{Professional Service \& Outreach}
+
+%\vspace{-2mm}
+\subsection{Reviewer for international journals}
+\cvitem{}{Monthly Notices of the Royal Astronomical Society (MNRAS), Physical Review D (PRD)}
+
+%\vspace{-2mm}
+\subsection{Conference organization}
+\cvitem{Oct 2016}{Chair of SOC for NANOGrav Fall meeting at University of Illinois Urbana-Champaign}
+\cvitem{Mar 2016}{SOC and LOC member for NANOGrav Spring meeting at Caltech}
+\cvitem{Mar 2016}{Co-organizer of NANOGrav student workshop at Caltech}
+\cvitem{Mar 2014}{SOC and LOC member for British Gravity meeting (BritGrav) at Cambridge, UK}
+
+%\vspace{-2mm}
+\subsection{Outreach}
+\cvitem{2016}{Featured gravitational-wave expert at NASA's``Ticket to Explore JPL'' event}
+\cvitem{2013}{Presentation at Cambridge's Institute of Astronomy Open Day}
+\cvitem{2012--2014}{Presentation to prospective students (Institute of Astronomy graduate interviews)}
+\cvitem{2012}{Outreach talk at Institute of Astronomy public-observing evening}
+\cvitem{2011}{Presentation at Cambridge's Institute of Astronomy Open Day}
+
+%----------------------------------------------------------------------------------------
+%   AFFILIATIONS SECTION
+%----------------------------------------------------------------------------------------
+%\vspace{-3mm}
+\section{Professional Affiliations}
+\textbf{North American Nanohertz Observatory for Gravitational-waves (NANOGrav)} [Full member] $\bullet$ \textbf{European Pulsar Timing Array (EPTA)} [Member] $\bullet$ \textbf{International Pulsar Timing Array (IPTA)} [Member] $\bullet$ \textbf{American Physical Society (and DGRAV)} [Member] $\bullet$ \textbf{American Astronomical Society} [Member] $\bullet$ \textbf{Royal Astronomical Society} [Fellow]
+
+%----------------------------------------------------------------------------------------
+%   PRESENTATIONS SECTION
+%----------------------------------------------------------------------------------------
+%\vspace{-3mm}
+\section{Publications}
+$\bullet$ \textbf{$22$ peer-reviewed publications (of which $8$ are first-author) with $317$ citations, h-index $10$.} 
+
+$\bullet$ Full list available at {\color{blue} \url{https://scholar.google.com/citations?user=iN2djBMAAAAJ&hl=en}}.
+
+%\subsection{Submitted \& In Preparation}
+%\cvitem{}{\textbf{S.~R.~Taylor}, L.~Lentati, S.~Babak, P.~Brem, J.~R.~Gair, A.~Sesana, A.~Vecchio. ``\textit{All correlations must die: Assessing the significance of a stochastic gravitational-wave signals in pulsar-timing arrays}''. Submitted to Physical Review D. arXiv:1606.09180.}
+%\cvitem{}{\textbf{S.~R.~Taylor}, R.~ van Haasteren. ``\textit{Optimized anisotropic modelling of the nanohertz gravitational-wave sky with pulsar-timing arrays}''. (In Prep.)}
+%\cvitem{}{\textbf{S.~R.~Taylor}, J.~Simon, L.~Sampson. ``\textit{Bayesian model emulation of stochastic gravitational-wave spectra for final-parsec probes with pulsar-timing arrays}''. (In Prep.)}
+%
+%\subsection{Publications In Peer-reviewed International Journals}
+%\cvitem{May 2016}{G.~Desvignes, R.~N.~Caballero, L.~Lentati, [and 40 others, including \textit{\textbf{S.~R.~Taylor}}]. ``\textit{High-precision timing of 42 millisecond pulsars with the European Pulsar Timing Array}''. MNRAS, 458:3341--3380.}
+%\cvitem{May 2016}{L.~Lentati, R.~M.~Shannon, W.~A.~Coles, [and 80 others, including \textit{\textbf{S.~R.~Taylor}}]. ``\textit{From spin noise to systematics: stochastic processes in the first International Pulsar Timing Array data release}''. MNRAS, 458:2161--2187.}
+%\cvitem{May 2016 }{J.~P.~W.~Verbiest, L.~Lentati, G.~Hobbs, [and 89 others, including \textit{\textbf{S.~R.~Taylor}}]. ``\textit{The International Pulsar Timing Array: First data release}''. MNRAS, 458:1267--1288.}
+%\cvitem{Apr 2016 }{Z.~Arzoumanian, A.~Brazier, S.~Burke-Spolaor, [and 48 others, including \textit{\textbf{S.~R.~Taylor}}]. ``\textit{The NANOGrav Nine-year Data Set: Limits on the Isotropic Stochastic Gravitational Wave Background}''. Astrophys. J., 821:13.}
+%\cvitem{Apr 2016 }{R.~N.~Caballero, K.~J.~Lee, L.~Lentati, [and 36 others, including \textit{\textbf{S.~R.~Taylor}}]. ``\textit{The noise properties of 42 millisecond pulsars from the European Pulsar Timing Array and their impact on gravitational-wave searches}''. MNRAS, 457:4421--4440.}
+%\cvitem{Mar 2016 }{\textit{\textbf{S.~R.~Taylor}}, M.~Vallisneri, J.~A.~Ellis, C.~M.~F.~Mingarelli, T.~J.~W.~Lazio, and R.~van Haasteren. ``\textit{Are We There Yet? Time to Detection of Nanohertz Gravitational  Waves Based on Pulsar-timing Array Limits}''. Astrophys. J. Lett, 819:L6.}
+%\cvitem{Jan 2016 }{\textit{\textbf{S.~R.~Taylor}}, E.~A.~Huerta, J.~R.~Gair, and S.~T.~McWilliams. ``\textit{Detecting Eccentric Supermassive Black Hole Binaries with Pulsar Timing Arrays: Resolvable Source Strategies}''. Astrophys. J., 817:70.}
+%\cvitem{Jan 2016 }{S.~Babak, A.~Petiteau, A.~Sesana, P.~Brem, P.~A.~Rosado, \textit{\textbf{S.~R.~Taylor}}, [and 30 others]. ``\textit{European Pulsar Timing Array limits on continuous gravitational waves from individual supermassive black hole binaries}''. MNRAS, 455:1665--1679.}
+%\cvitem{Nov 2015 }{J.~R.~Gair, J.~D.~Romano, and \textit{\textbf{S.~R.~Taylor}}. ``\textit{Mapping gravitational-wave backgrounds of arbitrary polarisation using pulsar timing arrays}''. Phys. Rev. D, 92(10):102003.}
+%\cvitem{Nov 2015 }{L.~Lentati, \textit{\textbf{S.~R.~Taylor}}, C.~M.~F.~Mingarelli, [and 33 others]. ``\textit{European Pulsar Timing Array limits on an isotropic stochastic gravitational-wave background}''. MNRAS, 453:2576--2598.}
+%\cvitem{Sep 2015 }{E.~A.~Huerta, S.~T.~McWilliams, J.~R.~Gair, and \textit{\textbf{S.~R.~Taylor}}. ``\textit{Detection of eccentric supermassive black hole binaries with pulsar timing arrays: Signal-to-noise ratio calculations}''. Phys. Rev. D, 92(6):063010.}
+%\cvitem{Aug 2015 }{J.~D.~Romano, \textit{\textbf{S.~R.~Taylor}}, N.~J.~Cornish, J.~Gair, C.~M.~F.~Mingarelli, and R.~van Haasteren. ``\textit{Phase-coherent mapping of gravitational-wave backgrounds using ground-based laser interferometers}'', Phys. Rev. D, 92(4):042003.}
+%\cvitem{Jul 2015}{\textit{\textbf{S.~R.~Taylor}}, C.~M.~F.~Mingarelli, J.~R.~Gair, [and 32 others]. ``\textit{Limits on Anisotropy in the Nanohertz Stochastic Gravitational Wave Background}''. Phys.Rev. Lett, 115(4):041101.}
+%\cvitem{Mar 2015}{C.~J.~Moore, \textit{\textbf{S.~R.~Taylor}}, and J.~R.~Gair. ``\textit{Estimating the sensitivity of pulsar timing arrays}'', Classical and Quantum Gravity, 32(5):055004.}
+%\cvitem{Nov 2014}{\textit{\textbf{S.~R.~Taylor}}, J.~Ellis, and J.~Gair. ``\textit{Accelerated Bayesian model-selection and parameter-estimation in continuous gravitational-wave searches with pulsar-timing arrays}''. Phys. Rev. D, 90(10):104028.}
+%\cvitem{Oct 2014}{J.~Gair, J.~D.~Romano, \textit{\textbf{S.~R.~Taylor}}, and C.~M.~F.~Mingarelli. ``\textit{Mapping gravitational-wave backgrounds using methods from CMB analysis: Application to pulsar timing arrays}''. Phys. Rev. D, 90(8):082001.}
+%\cvitem{Aug 2014}{R.~M.~Shannon, S.~Chamberlin, N.~J.~Cornish, J.~A.~Ellis, C.~M.~F.~Mingarelli, D.~Perrodin, P.~Rosado, A.~Sesana, \textit{\textbf{S.~R.~Taylor}}, [and 14 others]. ``\textit{Summary of Session C1: pulsar timing arrays}''. General Relativity and Gravitation, 46:1765.}
+%\cvitem{Oct 2013}{\textit{\textbf{S.~R.~Taylor}} and J.~R.~Gair. ``\textit{Searching for anisotropic gravitational-wave backgrounds using pulsar timing arrays}''. Phys. Rev. D, 88(8):084001.}
+%\cvitem{May 2013}{L.~Lentati, P.~Alexander, M.~P.~Hobson, \textit{\textbf{S.~R.~Taylor}}, J.~Gair, S.~T.~Balan, and R.~van Haasteren. ``\textit{Hyper-efficient model-independent Bayesian method for the analysis  of  pulsar timing data}''. Phys. Rev. D, 87(10):104021.}
+%\cvitem{Feb 2013 }{\textit{\textbf{S.~R.~Taylor}}, J.~R.~Gair, and L.~Lentati. ``\textit{Weighing the evidence for a gravitational-wave background in the first International Pulsar Timing Array data challenge}''. Phys. Rev. D, 87(4):044035.}
+%\cvitem{Jul 2012}{\textit{\textbf{S.~R.~Taylor}} and J.~R.~Gair. ``\textit{Cosmology with the lights off: Standard sirens in the Einstein Telescope era}''. Phys. Rev. D, 86(2):023502.}
+%\cvitem{Jan 2012}{\textit{\textbf{S.~R.~Taylor}}, J.~R.~Gair, and I.~Mandel. ``\textit{Cosmology using advanced gravitational-wave detectors alone}''. Phys. Rev. D, 85(2):023535.}
+%
+%\clearpage
+%\section{Presentations}
+%\textbf{$29$ oral presentations (of which $10$ were invited).}
+%
+%\subsection{Invited Talks}
+%\cvitem{Jul 2016}{\textit{New horizons in gravitational-wave astronomy with pulsar-timing arrays}, Armagh Observatory seminar, Armagh, UK}
+%\cvitem{Jul 2016}{\textit{Probing the final-parsec problem with pulsar-timing arrays}, Anton Pannekoek Institutt seminar, University of Amsterdam, Amsterdam, Netherlands}
+%\cvitem{Jul 2016}{\textit{Probing the final-parsec problem with pulsar-timing arrays}, Radboud University astrophysics seminar, Radboud, Netherlands}
+%\cvitem{Jun 2016}{\textit{Gravitational-wave data-analysis techniques for pulsar-timing arrays}, IPTA conference, Stellenbosch, South Africa}
+%\cvitem{Mar 2016}{\textit{Sources of nanohertz gravitational-waves for pulsar-timing array searches}, NANOGrav student workshop, Caltech, Pasadena CA, USA}
+%\cvitem{Dec 2015}{\textit{Prospects for near future detection and astrophysical inference with PTAs}, Gravitational-wave group seminar, University of Birmingham, UK}
+%\cvitem{Dec 2015}{\textit{Prospects for near future detection and astrophysical inference with PTAs}, Statistics group seminar (School of Mathematics), University of Edinburgh, UK}
+%\cvitem{Dec 2015}{\textit{Prospects for near future detection and astrophysical inference with PTAs}, CaJAGWR seminar, California Institute of Technology}
+%\cvitem{May 2013}{\textit{Searching For Anisotropic Gravitational-wave Backgrounds Using Pulsar Timing Arrays}, Albert Einstein Institute (AEI) GW seminar, Hanover}
+%\cvitem{Dec 2012}{\textit{Weighing the evidence for a gravitational-wave background}, Gravitational-wave group seminar, University of Birmingham, UK}
+%
+%\subsection{Contributed Presentations}
+%\cvitem{May 2016}{\textit{Carrying the physics of supermassive black-hole binary evolution into pulsar-timing array searches}, EPTA meeting, Bielefeld, Germany}
+%\cvitem{Apr 2016}{\textit{Are we there yet? Time to detection of nanohertz gravitational waves}, American Physical Society meeting, Salt Lake City UT, USA}
+%\cvitem{Mar 2016}{\textit{Carrying the physics of supermassive black-hole binary evolution into pulsar-timing array searches}, NANOGrav meeting, Caltech, Pasadena CA, USA}
+%\cvitem{Oct 2015}{\textit{Are we there yet? Time to detection of nanohertz gravitational waves}, NANOGrav meeting, McGill University, Montreal, Canada}
+%\cvitem{Jun 2015}{\textit{Eccentric supermassive black-hole binary signals in pulsar-timing data}, European Pulsar Timing Array meeting, Bonn, Germany}
+%\cvitem{Apr 2015}{\textit{Eccentric supermassive black-hole binary signals in pulsar-timing data}, American Physical Society meeting, Baltimore MD, USA}
+%\cvitem{Feb 2015}{\textit{Eccentric supermassive black-hole binary signals in pulsar-timing data}, NANOGrav meeting, Arecibo, Puerto Rico}
+%\cvitem{Jan 2015}{\textit{Exploring the cosmos with gravitational waves}, American Astronomical Society meeting, Seattle WA, USA}
+%\cvitem{Nov 2014}{\textit{EPTA constraints on gravitational-wave anisotropy}, European Pulsar Timing Array meeting, Cambridge, UK}
+%\cvitem{Jun 2014}{\textit{EPTA and IPTA searches for gravitational-wave background anisotropy}, International Pulsar Timing Array meeting, Banff, Canada}
+%\cvitem{May 2014}{\textit{EPTA limits on gravitational-wave anisotropy}, European Pulsar Timing Array meeting, Astron, Netherlands}
+%\cvitem{Oct 2013}{\textit{The pulsar-term in PTA continuous-wave searches: a blessing and a curse}, European Pulsar Timing Array meeting, Pula, Sardinia}
+%\cvitem{Jul 2013}{\textit{Probing anisotropy of the GW background with pulsar timing arrays}, 20th International Conference on General Relativity and Gravitation and 10th Amaldi Conference on Gravitational Waves, Warsaw}
+%\cvitem{Jun 2013}{\textit{The first PTA search pipeline for anisotropy in the GW background}, International Pulsar Timing Array meeting, Krabi, Thailand}
+%\cvitem{Apr 2013}{\textit{Searching For Anisotropic Gravitational-wave Backgrounds Using Pulsar Timing Arrays}, European Pulsar Timing Array meeting, l?Observatoire de Paris, Paris}
+%\cvitem{Feb 2013}{\textit{Weighing the evidence for a gravitational-wave background}, Institute of Astronomy seminar, University of Cambridge}
+%\cvitem{Nov 2012}{\textit{Weighing the evidence for a gravitational-wave background}, European Pulsar Timing Array meeting, Albert Einstein Institute (AEI), Potsdam, Germany}
+%\cvitem{Jun 2012}{\textit{Milestones in Spacetime: Double Neutron-Star Binaries as Gravitational-Wave Standard Sirens}, Institute of Astronomy seminar, University of Cambridge, UK}
+%\cvitem{Feb 2012}{\textit{Hubble without the Hubble: Cosmology using advanced gravitational-wave detectors alone}, Gravitational-Wave Meeting, Institut de Ciències de l'Espai, Barcelona, Spain}
+%
+%\subsection{Posters}
+%\cvitem{Aug 2015}{\textit{Galactic environment effects on gravitational wave signals in pulsar timing arrays}, Postdoc Research Day, NASA Jet Propulsion Laboratory}
+%\cvitem{Aug 2012}{\textit{Cosmology without EM counterparts: Standard sirens in the advanced era and beyond}, Rattle and Shine, KITP Santa Barbara}
+%\cvitem{Dec 2011}{\textit{Cosmology using advanced gravitational-wave detectors alone}, Graduate Student Conference 2011, Cavendish Laboratory, University of Cambridge}
+%
+%----------------------------------------------------------------------------------------
+%   REFERENCES
+%----------------------------------------------------------------------------------------
+%\vspace{-3mm}
+\section{References}
+Available upon request.
+%\cvitem{}{Available upon request.}
+
+%----------------------------------------------------------------------------------------
+%   COMPUTER SKILLS SECTION
+%----------------------------------------------------------------------------------------
+%\section{Computing Skills}
+%\cvitem{OS}{Linux/UNIX, Windows}
+%\cvitem{Programming}{C/C++, \textsc{Python}, UNIX shell scripting, GPU programming (CUDA C, PyCUDA)}
+%\cvitem{Typography}{\LaTeX, Bibtex, Microsoft Office, Pages, OpenOffice}
+%\cvitem{Scientific}{Mathematica, Matlab, \textsc{Python}}
+
+
+
+%----------------------------------------------------------------------------------------
+%   COVER LETTER
+%----------------------------------------------------------------------------------------
+
+% To remove the cover letter, comment out this entire block
+
+%\clearpage
+
+%\recipient{HR Departmnet}{Corporation\\123 Pleasant Lane\\12345 City, State} % Letter recipient
+%\date{\today} % Letter date
+%\opening{Dear Sir or Madam,} % Opening greeting
+%\closing{Sincerely yours,} % Closing phrase
+%\enclosure[Attached]{curriculum vit\ae{}} % List of enclosed documents
+
+%\makelettertitle % Print letter title
+
+%\lipsum[1-3] % Dummy text
+
+%\makeletterclosing % Print letter signature
+
+%----------------------------------------------------------------------------------------
+
+\end{document}
