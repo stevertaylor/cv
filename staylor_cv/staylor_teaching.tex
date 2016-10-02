@@ -1,0 +1,102 @@
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+% "ModernCV" CV and Cover Letter
+% LaTeX Template
+% Version 1.1 (9/12/12)
+%
+% This template has been downloaded from:
+% http://www.LaTeXTemplates.com
+%
+% Original author:
+% Xavier Danaux (xdanaux@gmail.com)
+%
+% License:
+% CC BY-NC-SA 3.0 (http://creativecommons.org/licenses/by-nc-sa/3.0/)
+%
+% Important note:
+% This template requires the moderncv.cls and .sty files to be in the same
+% directory as this .tex file. These files provide the resume style and themes
+% used for structuring the document.
+%
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+
+%----------------------------------------------------------------------------------------
+%   PACKAGES AND OTHER DOCUMENT CONFIGURATIONS
+%----------------------------------------------------------------------------------------
+
+\documentclass[11pt,letterpaper,sans]{moderncv} % Font sizes: 10, 11, or 12; paper sizes: a4paper, letterpaper, a5paper, legalpaper, executivepaper or landscape; font families: sans or roman
+
+\moderncvstyle{banking} % CV theme - options include: 'casual' (default), 'classic', 'oldstyle' and 'banking'
+\moderncvcolor{blue} % CV color - options include: 'blue' (default), 'orange', 'green', 'red', 'purple', 'grey' and 'black'
+%\usepackage[scale=0.8]{geometry} % Reduce document margins
+\usepackage[margin=1in]{geometry}
+%\setlength{\hintscolumnwidth}{3cm} % Uncomment to change the width of the dates column
+%\setlength{\makecvtitlenamewidth}{10cm} % For the 'classic' style, uncomment to adjust the width of the space allocated to your name
+
+\def\prd{{Phys. Rev.} D}
+\def\PRL{{Phys.Rev.} Lett}
+\def\apjl{{Astrophys. J.} Lett}
+\def\apj{{Astrophys. J.}}
+\def\CQG{{Class. Quantum Grav.}}
+\def\aaps{{A\&AS}}
+\def\pasj{{PASJ}}
+\def\mnras{{MNRAS}} 
+\def\aapr{{A\&ARv}}
+\def\aap{{A\&A}}
+\def\na{{New Astronomy}}
+\def\ptp{{Progress of Theoretical Physics}}
+\def\apjs{{ApJS}}
+\def\araa{{ARA\&A}}
+\def\ssr{{Space Sci. Rev.}} 
+
+\usepackage{etoolbox}% http://ctan.org/pkg/etoolbox
+\makeatletter
+\newcommand*{\emailA}[1]{\def\@emailA{#1}}
+\newcommand*{\emailB}[1]{\def\@emailB{#1}}
+\patchcmd{\maketitle}% <cmd>
+  {\ifthenelse{\isundefined{\@email}}{}{\addtomaketitle{\emailsymbol\emaillink{\@email}}}}% <search>
+  {\ifthenelse{\isundefined{\@emailA}}{}{\addtomaketitle{\emailsymbol\emaillink{\@emailA}}}%
+   \ifthenelse{\isundefined{\@emailB}}{}{\addtomaketitle{\emailsymbol\emaillink{\@emailB}}}}% <replace>
+  {}{}% <success><failure>
+\makeatother
+ 
+%----------------------------------------------------------------------------------------
+%   NAME AND CONTACT INFORMATION SECTION
+%----------------------------------------------------------------------------------------
+
+\firstname{Stephen} % Your first name
+\familyname{Taylor} % Your last name
+
+% All information in this block is optional, comment out any lines you don't need
+\title{\huge{Teaching Statement}}
+\address{Jet Propulsion Laboratory, 4800 Oak Grove Drive}{Pasadena, CA 91109}
+\phone[mobile]{+1 (626) 689-5832}
+\emailA{Stephen.R.Taylor@jpl.nasa.gov}
+%\emailB{steve.taylor1987@gmail.com}
+\homepage{stevertaylor.github.io}
+\social[github]{stevertaylor}
+\social[linkedin][linkedin.com/in/stephen-taylor-a8164787]{stephen-taylor}
+
+%----------------------------------------------------------------------------------------
+
+\begin{document}
+
+\makecvtitle % Print the CV title
+
+We remember our best and worst teachers, such is the indelible impact that teaching can have on us. A good teacher can make a struggling student achieve beyond their imagining, and can set a talented student on the road to greatness. A poor teacher can drag even the brightest student down. Instructing and supervising students is thus an incredible privilege that comes with many responsibilities that I take extremely seriously. These students will form part of an unbroken chain of knowledge transfer --- it is my responsibility to pass on the discoveries of prior generations, whilst also teaching the students to think for themselves so that they can do the same for the next generation.
+\vspace{2mm}
+
+In some quarters, teaching is seen as lesser than research, since it is the latter that advances inquiry into the unknown. However, arguably the greatest scientist of the $20^\mathrm{th}$ century once said ``If you can't explain it simply, you don't understand it well enough". Einstein saw that teaching organizes the mind and improves the practice of research by compelling you to break a subject down into easily-digestible logical steps. I have always found this to be true, whether it was helping out my fellow Oxford undergraduate physics students with a difficult new topic, teaching my Cambridge undergraduate students the beauty of special and general relativity, or instructing Caltech graduate students on the latest advances in gravitational-wave data-analysis strategies.
+
+Focus on specific PLANS for courses. Ie, new courses you?d develop AND basic intro/generalist courses and how you?d handle them, pref. in innovative ways.
+
+wide general good --> teaching strategies that manifest this good --> examples from specific classes --> evidence that the strategies were effective --> conclusion
+
+gravitaitonal wave infernece technique classes, show students the links between different detectors and bands, pulsar-timing has borrowed stratgeies from ligo, but pulsar-timing is far more advanced in stochastic signal inference. pulsar-timing has fed back to ligo in terms of pahse coherent mapping.
+
+taught relativity to cambridge part II undergradtes. small groups allowed deep focused learning, open discussion, and extensions beyond set syllabus. students were responsive. 
+
+one studnet still in contact. caltech graduate student. christopher spalding, involved in exoplanetary research.
+
+studnets don't even know what they know. feynman. let students see the connections and the broad applicability of differtnet techniques. insetad og isladns of rote-learned facts, let studetsn appreciate teh deep bedrock of knowledge that connects differnet disciplines.
+
+\end{document}
