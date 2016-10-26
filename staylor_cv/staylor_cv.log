@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.14159265-2.6-1.40.15 (TeX Live 2014) (preloaded format=pdflatex 2015.2.6)  17 OCT 2016 23:10
+This is pdfTeX, Version 3.14159265-2.6-1.40.15 (TeX Live 2014) (preloaded format=pdflatex 2015.2.6)  25 OCT 2016 23:06
 entering extended mode
  restricted \write18 enabled.
  file:line:error style messages enabled.
@@ -1213,29 +1213,10 @@ LaTeX Font Info:    Font shape `T1/LinuxBiolinumT-TLF/m/n' will be
 (Font)              scaled to size 24.88pt on input line 133.
 LaTeX Font Info:    Font shape `T1/LinuxBiolinumT-TLF/b/n' will be
 (Font)              scaled to size 24.88pt on input line 133.
-
-(/usr/local/texlive/2014/texmf-dist/tex/latex/microtype/mt-mvs.cfg
-File: mt-mvs.cfg 2006/07/05 v1.1 microtype config. file: Marvosym Euro (RS)
-)
-LaTeX Font Info:    Try loading font information for TS1+LinuxLibertineT-TLF on
- input line 133.
-
-(/usr/local/texlive/2014/texmf-dist/tex/latex/libertine/TS1LinuxLibertineT-TLF.
-fd
-File: TS1LinuxLibertineT-TLF.fd 2012/11/26 (autoinst) Font definitions for TS1/
-LinuxLibertineT-TLF.
-)
-LaTeX Font Info:    Font shape `TS1/LinuxLibertineT-TLF/m/n' will be
-(Font)              scaled to size 10.95pt on input line 133.
-Package microtype Info: Loading generic settings for font family
-(microtype)             `LinuxLibertineT-TLF' (encoding: TS1).
-(microtype)             For optimal results, create family-specific settings.
-(microtype)             See the microtype manual for details.
-LaTeX Font Info:    Font shape `T1/LinuxBiolinumT-TLF/m/n' will be
-(Font)              scaled to size 14.4pt on input line 133.
 LaTeX Font Info:    Try loading font information for OT1+lmr on input line 133.
 
- (/usr/local/texlive/2014/texmf-dist/tex/latex/lm/ot1lmr.fd
+
+(/usr/local/texlive/2014/texmf-dist/tex/latex/lm/ot1lmr.fd
 File: ot1lmr.fd 2009/10/30 v1.6 Font defs for Latin Modern
 )
 (/usr/local/texlive/2014/texmf-dist/tex/latex/microtype/mt-cmr.cfg
@@ -1266,6 +1247,26 @@ LaTeX Font Info:    External font `lmex10' loaded for size
 (Font)              <8> on input line 133.
 LaTeX Font Info:    External font `lmex10' loaded for size
 (Font)              <6> on input line 133.
+
+(/usr/local/texlive/2014/texmf-dist/tex/latex/microtype/mt-mvs.cfg
+File: mt-mvs.cfg 2006/07/05 v1.1 microtype config. file: Marvosym Euro (RS)
+)
+LaTeX Font Info:    Try loading font information for TS1+LinuxLibertineT-TLF on
+ input line 133.
+
+(/usr/local/texlive/2014/texmf-dist/tex/latex/libertine/TS1LinuxLibertineT-TLF.
+fd
+File: TS1LinuxLibertineT-TLF.fd 2012/11/26 (autoinst) Font definitions for TS1/
+LinuxLibertineT-TLF.
+)
+LaTeX Font Info:    Font shape `TS1/LinuxLibertineT-TLF/m/n' will be
+(Font)              scaled to size 10.95pt on input line 133.
+Package microtype Info: Loading generic settings for font family
+(microtype)             `LinuxLibertineT-TLF' (encoding: TS1).
+(microtype)             For optimal results, create family-specific settings.
+(microtype)             See the microtype manual for details.
+LaTeX Font Info:    Font shape `T1/LinuxBiolinumT-TLF/m/n' will be
+(Font)              scaled to size 14.4pt on input line 133.
 
 Underfull \hbox (badness 10000) in paragraph at lines 133--133
 
@@ -1327,17 +1328,17 @@ Underfull \hbox (badness 10000) detected at line 217
  []
 
 
-Underfull \hbox (badness 10000) detected at line 229
-\T1/LinuxBiolinumT-TLF/m/n/8 .
- []
-
-
 Package Fancyhdr Warning: \headheight is too small (12.0pt): 
  Make it at least 13.59999pt.
  We now make it that large for the rest of the document.
  This may cause the page layout to be inconsistent, however.
 
 [2]
+Underfull \hbox (badness 10000) detected at line 229
+\T1/LinuxBiolinumT-TLF/m/n/8 .
+ []
+
+
 Underfull \hbox (badness 10000) detected at line 236
 \T1/LinuxBiolinumT-TLF/m/n/8 .
  []
@@ -1441,7 +1442,7 @@ Package rerunfilecheck Info: File `staylor_cv.out' has not changed.
 Here is how much of TeX's memory you used:
  29210 strings out of 493109
  542179 string characters out of 6135005
- 592947 words of memory out of 5000000
+ 600658 words of memory out of 5000000
  31994 multiletter control sequences out of 15000+600000
  156565 words of font info for 199 fonts, out of 8000000 for 9000
  1141 hyphenation exceptions out of 8191
@@ -1465,7 +1466,7 @@ ive/2014/texmf-dist/fonts/type1/public/lm/lmri10.pfb></usr/local/texlive/2014/t
 exmf-dist/fonts/type1/public/marvosym/marvosym.pfb></usr/local/texlive/2014/tex
 mf-dist/fonts/type1/public/mathabx-type1/matha10.pfb></usr/local/texlive/2014/t
 exmf-dist/fonts/type1/public/mathabx-type1/mathb8.pfb>
-Output written on staylor_cv.pdf (7 pages, 419020 bytes).
+Output written on staylor_cv.pdf (7 pages, 419078 bytes).
 PDF statistics:
  267 PDF objects out of 1000 (max. 8388607)
  241 compressed objects within 3 object streams
