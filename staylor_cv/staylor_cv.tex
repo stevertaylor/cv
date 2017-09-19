@@ -1,37 +1,34 @@
-%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
-% "ModernCV" CV and Cover Letter
-% LaTeX Template
-% Version 1.1 (9/12/12)
-%
-% This template has been downloaded from:
-% http://www.LaTeXTemplates.com
-%
-% Original author:
-% Xavier Danaux (xdanaux@gmail.com)
-%
-% License:
-% CC BY-NC-SA 3.0 (http://creativecommons.org/licenses/by-nc-sa/3.0/)
-%
-% Important note:
-% This template requires the moderncv.cls and .sty files to be in the same
-% directory as this .tex file. These files provide the resume style and themes
-% used for structuring the document.
-%
-%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+\documentclass[11pt,letterpaper,sans]{moderncv} 
 
-%----------------------------------------------------------------------------------------
-%   PACKAGES AND OTHER DOCUMENT CONFIGURATIONS
-%----------------------------------------------------------------------------------------
+\usepackage{graphicx}
+\usepackage{longtable}
+\usepackage{multirow}
+\usepackage{textcomp}
+\usepackage{units}
+\usepackage{lineno}
+\usepackage{rotating}
+\usepackage{amssymb}
+\usepackage{amsmath}
+\usepackage[utf8]{inputenc}
+\usepackage{longtable}
+\usepackage{comment}
+\usepackage{xcolor}
 
-\documentclass[11pt,letterpaper,sans]{moderncv} % Font sizes: 10, 11, or 12; paper sizes: a4paper, letterpaper, a5paper, legalpaper, executivepaper or landscape; font families: sans or roman
-
-\moderncvstyle{banking} % CV theme - options include: 'casual' (default), 'classic', 'oldstyle' and 'banking'
-\moderncvcolor{blue} % CV color - options include: 'blue' (default), 'orange', 'green', 'red', 'purple', 'grey' and 'black'
-\usepackage[margin=1in]{geometry} % Reduce document margins
+\moderncvstyle{banking} 
+\definecolor{color1}{HTML}{1f77b4}
+\moderncvcolor{blue} 
+%\definecolor{color1}{HTML}{1f77b4}
+\renewcommand{\familydefault}{\sfdefault}
+%\usepackage[margin=1in]{geometry} % Reduce document margins
+\usepackage[top=2cm,bottom=2cm,left=2cm,right=2cm,bindingoffset=0cm]{geometry}
+\setlength{\hintscolumnwidth}{3cm}
+\usepackage{enumitem}
+\setlist{nolistsep}
 \usepackage{lastpage}
 \usepackage{mathabx}
-\usepackage{libertine}
+%\usepackage{libertine}
 \cfoot{{\color{gray} Page \thepage\ of \pageref{LastPage}}}
+
 
 \def\prd{{Phys. Rev.} D}
 \def\PRL{{Phys.Rev.} Lett}
@@ -49,15 +46,14 @@
 \def\araa{{ARA\&A}}
 \def\ssr{{Space Sci. Rev.}} 
 
-\usepackage{etoolbox}% http://ctan.org/pkg/etoolbox
+\usepackage{etoolbox}
 \makeatletter
 \newcommand*{\emailA}[1]{\def\@emailA{#1}}
 \newcommand*{\emailB}[1]{\def\@emailB{#1}}
 \patchcmd{\maketitle}% <cmd>
-  {\ifthenelse{\isundefined{\@email}}{}{\addtomaketitle{\emailsymbol\emaillink{\@email}}}}% <search>
-  {\ifthenelse{\isundefined{\@emailA}}{}{\addtomaketitle{\emailsymbol\emaillink{\@emailA}}}%
-   \ifthenelse{\isundefined{\@emailB}}{}{\addtomaketitle{\emailsymbol\emaillink{\@emailB}}}}% <replace>
-  {}{}% <success><failure>
+  {\ifthenelse{\isundefined{\@email}}{}{\addtomaketitle{\emailsymbol\emaillink{\@email}}}}  {\ifthenelse{\isundefined{\@emailA}}{}{\addtomaketitle{\emailsymbol\emaillink{\@emailA}}}
+   \ifthenelse{\isundefined{\@emailB}}{}{\addtomaketitle{\emailsymbol\emaillink{\@emailB}}}}
+  {}{}
 \makeatother
  
 %----------------------------------------------------------------------------------------
@@ -77,6 +73,11 @@
 \social[github]{stevertaylor}
 \social[linkedin][linkedin.com/in/stephen-taylor-a8164787]{stephen-taylor}
 
+\newlength{\listitemmaincolumnwidth}%
+\setlength{\listitemmaincolumnwidth}{\textwidth}% 
+
+\newlength{\listdoubleitemmaincolumnwidth}%
+\setlength{\listdoubleitemmaincolumnwidth}{\textwidth}% 
 
 \newlength\listtripleitemmaincolumnwidth
 
@@ -130,7 +131,7 @@
 
 \begin{document}
 \hypersetup{urlcolor=blue,linkcolor=blue}
-\makecvtitle % Print the CV title
+\makecvtitle 
 
 %----------------------------------------------------------------------------------------
 %   EDUCATION SECTION
@@ -254,9 +255,9 @@ $\bullet$ Up-to-date metrics available at \url{https://scholar.google.com/citati
 $\bullet$ $5$ key publications are indicated below with preceding asterisks.
 
 \subsection{Submitted \& In Preparation} 
+\cvitem{}{\textbf{S.~R.~Taylor}, J.~Simon, L.~Sampson. ``\textit{Constraints On The Dynamical Environments Of Supermassive Black-hole Binaries Using Pulsar-timing Arrays}''. Submitted to Physical Review Letters. {\color{blue} \href{https://arxiv.org/abs/1612.02817}{arXiv:1612.02817}}.}
 \cvitem{}{\textbf{S.~R.~Taylor}, L.~Lentati, S.~Babak, P.~Brem, J.~R.~Gair, A.~Sesana, A.~Vecchio. ``\textit{All correlations must die: Assessing the significance of a stochastic gravitational-wave background in pulsar-timing arrays}''. Submitted to Physical Review D. {\color{blue} \href{https://arxiv.org/abs/1606.09180}{arXiv:1606.09180}}.}
 \cvitem{}{\textbf{S.~R.~Taylor}, R.~ van Haasteren. ``\textit{Optimized anisotropic modelling of the nanohertz gravitational-wave sky with pulsar-timing arrays}''. (In Prep.)}
-\cvitem{}{\textbf{S.~R.~Taylor}, J.~Simon, L.~Sampson. ``\textit{Bayesian model emulation of stochastic gravitational-wave spectra for final-parsec probes with pulsar-timing arrays}''. (In Prep.)}
 
 \subsection{Publications In Peer-reviewed International Journals} 
 \cvitem{May 2016}{G.~Desvignes, R.~N.~Caballero, L.~Lentati, [and 40 others, including \textit{\textbf{S.~R.~Taylor}}]. ``\textit{High-precision timing of 42 millisecond pulsars with the European Pulsar Timing Array}''. \href{http://mnras.oxfordjournals.org/content/458/3/3341}{{\color{blue} MNRAS, 458:3341--3380}}.}
