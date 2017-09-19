@@ -1,0 +1,160 @@
+\documentclass[11pt,letterpaper,sans]{moderncv}
+
+\usepackage{graphicx}
+\usepackage{longtable}
+\usepackage{multirow}
+\usepackage{textcomp}
+\usepackage{units}
+\usepackage{lineno}
+\usepackage{rotating}
+\usepackage{amssymb}
+\usepackage{amsmath}
+\usepackage[utf8]{inputenc}
+\usepackage{longtable}
+\usepackage{comment}
+\usepackage{xcolor}
+
+
+\moderncvstyle{banking}                           
+\moderncvcolor{blue}    
+
+\renewcommand{\familydefault}{\sfdefault}
+\usepackage[top=1in,bottom=1in,left=1in,right=1in,bindingoffset=0cm]{geometry}
+\setlength{\hintscolumnwidth}{3cm}
+\usepackage{enumitem}
+\setlist{nolistsep}
+\usepackage{lastpage}
+\usepackage{mathabx}
+\cfoot{{\color{gray} Page \thepage\ of \pageref{LastPage}}}
+
+
+\def\prd{{Phys. Rev.} D}
+\def\PRL{{Phys.Rev.} Lett}
+\def\apjl{{Astrophys. J.} Lett}
+\def\apj{{Astrophys. J.}}
+\def\CQG{{Class. Quantum Grav.}}
+\def\aaps{{A\&AS}}
+\def\pasj{{PASJ}}
+\def\mnras{{MNRAS}} 
+\def\aapr{{A\&ARv}}
+\def\aap{{A\&A}}
+\def\na{{New Astronomy}}
+\def\ptp{{Progress of Theoretical Physics}}
+\def\apjs{{ApJS}}
+\def\araa{{ARA\&A}}
+\def\ssr{{Space Sci. Rev.}} 
+
+\newcommand{\cvreference}[9]{%
+  \textbf{#1}\newline% Name
+  \ifthenelse{\equal{#2}{}}{}{\addresssymbol~#2\newline}%
+  \ifthenelse{\equal{#3}{}}{}{#3\newline}%
+  \ifthenelse{\equal{#4}{}}{}{#4\newline}%
+  \ifthenelse{\equal{#5}{}}{}{#5\newline}%
+   \ifthenelse{\equal{#6}{}}{}{#6\newline}%
+  \ifthenelse{\equal{#7}{}}{}{#7\newline}%
+  \ifthenelse{\equal{#8}{}}{}{\emailsymbol~{\footnotesize \texttt{\emaillink[]{#8}}}\newline}
+    \ifthenelse{\equal{#9}{}}{}{\phonesymbol~#9}}
+ 
+%----------------------------------------------------------------------------------------
+%   NAME AND CONTACT INFORMATION SECTION
+%----------------------------------------------------------------------------------------
+
+\firstname{Stephen} % Your first name
+\familyname{Taylor} % Your last name
+
+% All information in this block is optional, comment out any lines you don't need
+\title{References}
+\address{TAPIR Group, MC $350$-$17$, California Institute of Technology}{1200 E. California Blvd, Pasadena, CA 91125}
+\phone[mobile]{+1~(626)~689-5832}
+\email{Stephen.R.Taylor@jpl.nasa.gov}
+\homepage{stevertaylor.github.io}
+\social[github]{stevertaylor}
+\social[linkedin][linkedin.com/in/stephen-taylor-a8164787]{stephen-taylor $\;\;\bullet\;\;$ \today}
+
+\lhead{{\color{gray} \fontsize{10}{22}\mdseries\upshape{Stephen Taylor}}}
+\rhead{{\color{gray} \fontsize{10}{10}\mdseries\upshape{Stephen.R.Taylor@jpl.nasa.gov}}}
+
+%\definecolor{color1}{HTML}{1f77b4}
+%\hypersetup{urlcolor=color1,linkcolor=color1}
+
+\begin{document}
+\makecvtitle 
+
+%----------------------------------------------------------------------------------------
+%  REFERENCES
+%----------------------------------------------------------------------------------------
+\vspace{-30pt}
+\section{} 
+\vspace{15pt}
+\begin{cvcolumns}
+\cvcolumn{}{\cvreference{Dr~Jonathan~R.~Gair [\textit{PhD advisor}]}
+    {Reader, School of Mathematics}
+    {James Clerk Maxwell Building}
+    {Peter Guthrie Tait Road}
+    {University of Edinburgh}
+    {Edinburgh UK, EH9 3FD}
+    {}
+    {J.Gair@ed.ac.uk}
+    {+44 (0) 131 650 4899}
+    }
+\cvcolumn{}{\cvreference{Prof. Xavier Siemens}
+    {Chair, NANOGrav}
+    {Director, NANOGrav Physics Frontier Center}
+    {Associate Professor}
+    {Department of Physics}
+    {University of Wisconsin--Milwaukee}
+    {Milwaukee,  WI 53201}
+    {siemens@gravity.phys.uwm.edu}
+    {+1 (414) 229 6439}
+    }
+   \end{cvcolumns}
+ 
+\vspace{20pt}
+\begin{cvcolumns}
+\cvcolumn{}{\cvreference{Dr~Michele~Vallisneri}
+    {Director's Fellow}
+    {Jet Propulsion Laboratory}
+    {California Institute of Technology}
+    {4800 Oak Grove Drive}
+    {Pasadena, CA 91109}
+    {}
+    {michele.vallisneri@jpl.nasa.gov}
+    {+1 (818) 395 9073}
+    }
+    \cvcolumn{}{\cvreference{Prof. Alberto Vecchio}
+    {Head of Group}
+    {School of Physics \& Astronomy}
+    {University of Birmingham}
+    {Edgbaston}
+    {Birmingham UK, B15 2TT}
+    {}
+    {av@star.sr.bham.ac.uk}
+    {+44 (0) 1214 146447}
+    }
+    \end{cvcolumns}
+    
+\vspace{20pt}
+\begin{cvcolumns}
+\cvcolumn{}{\cvreference{Dr~T.~Joseph~W.~Lazio}
+    {Chief Scientist}
+    {Interplanetary Network Directorate}
+    {Jet Propulsion Laboratory}
+    {California Institute of Technology}
+    {4800 Oak Grove Drive}
+    {Pasadena, CA 91109}
+    {Joseph.Lazio@jpl.nasa.gov}
+    {+1 (818) 354 4198}
+    }
+    \cvcolumn{}{\cvreference{Prof.~Neil~J.~Cornish}
+    {Professor of Physics}
+    {eXtreme Gravity Institute}
+    {Department of Physics}
+    {Montana State University}
+    {Bozeman, MT 59717}
+    {}
+    {ncornish@montana.edu}
+    {+1 (406) 994 7986}
+    }
+    \end{cvcolumns}
+    
+\end{document}
