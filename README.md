@@ -15,4 +15,4 @@ PDF files can be accessed using the links below:
 
 Additionally, my citation count is available [here](https://scholar.google.com/citations?user=iN2djBMAAAAJ&hl=en).
 
-Latex compiler powered by [OnlineLatex](http://latex.aslushnikov.com)
+Latex compiler powered by [LaTeX.Online](https://latexonline.cc/)
