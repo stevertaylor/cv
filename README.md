@@ -8,7 +8,7 @@ For more information on my research, please visit my personal homepage: [stevert
 
 PDF files can be accessed using the links below:
 
-- [**CV**]()
+- [**CV**](https://latexonline.cc/compile?git=https%3A%2F%2Fgithub.com%2Fstevertaylor%2Fcv&target=staylor_cv%2Fstaylor_cv.tex&command=pdflatex&trackId=1505847551951)
 - [**CV (long)**]()
 - [**Publication list**]()
 - [**Talk list**]()
