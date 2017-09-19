@@ -12,6 +12,7 @@ PDF files can be accessed using the links below:
 - [**CV (long)**](https://latexonline.cc/compile?git=https%3A%2F%2Fgithub.com%2Fstevertaylor%2Fcv&target=staylor_cv%2Fstaylor_cv.tex&command=pdflatex&trackId=1505847551951)
 - [**Publication list**](https://latexonline.cc/compile?git=https%3A%2F%2Fgithub.com%2Fstevertaylor%2Fcv&target=staylor_cv%2Fstaylor_publist.tex&command=pdflatex&trackId=1505850155140)
 - [**Talk list**]()
+- [**References**]()
 
 Additionally, my citation count is available [here](https://scholar.google.com/citations?user=iN2djBMAAAAJ&hl=en).
 
