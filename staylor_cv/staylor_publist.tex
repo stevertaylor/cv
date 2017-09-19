@@ -1,40 +1,32 @@
-%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
-% "ModernCV" CV and Cover Letter
-% LaTeX Template
-% Version 1.1 (9/12/12)
-%
-% This template has been downloaded from:
-% http://www.LaTeXTemplates.com
-%
-% Original author:
-% Xavier Danaux (xdanaux@gmail.com)
-%
-% License:
-% CC BY-NC-SA 3.0 (http://creativecommons.org/licenses/by-nc-sa/3.0/)
-%
-% Important note:
-% This template requires the moderncv.cls and .sty files to be in the same
-% directory as this .tex file. These files provide the resume style and themes
-% used for structuring the document.
-%
-%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+\documentclass[11pt,letterpaper,sans]{moderncv}
 
-%----------------------------------------------------------------------------------------
-%   PACKAGES AND OTHER DOCUMENT CONFIGURATIONS
-%----------------------------------------------------------------------------------------
+\usepackage{graphicx}
+\usepackage{longtable}
+\usepackage{multirow}
+\usepackage{textcomp}
+\usepackage{units}
+\usepackage{lineno}
+\usepackage{rotating}
+\usepackage{amssymb}
+\usepackage{amsmath}
+\usepackage[utf8]{inputenc}
+\usepackage{longtable}
+\usepackage{comment}
+\usepackage{xcolor}
 
-\documentclass[11pt,letterpaper,sans]{moderncv} % Font sizes: 10, 11, or 12; paper sizes: a4paper, letterpaper, a5paper, legalpaper, executivepaper or landscape; font families: sans or roman
 
-\moderncvstyle{banking} % CV theme - options include: 'casual' (default), 'classic', 'oldstyle' and 'banking'
-\moderncvcolor{blue} % CV color - options include: 'blue' (default), 'orange', 'green', 'red', 'purple', 'grey' and 'black'
-%\usepackage[scale=0.8]{geometry} % Reduce document margins
-\usepackage[margin=1in]{geometry}
+\moderncvstyle{banking}                           
+\moderncvcolor{blue}    
+
+\renewcommand{\familydefault}{\sfdefault}
+\usepackage[top=1in,bottom=1in,left=1in,right=1in,bindingoffset=0cm]{geometry}
+\setlength{\hintscolumnwidth}{3cm}
+\usepackage{enumitem}
+\setlist{nolistsep}
 \usepackage{lastpage}
 \usepackage{mathabx}
-\usepackage{libertine}
-%\setlength{\hintscolumnwidth}{3cm} % Uncomment to change the width of the dates column
-%\setlength{\makecvtitlenamewidth}{10cm} % For the 'classic' style, uncomment to adjust the width of the space allocated to your name
 \cfoot{{\color{gray} Page \thepage\ of \pageref{LastPage}}}
+
 
 \def\prd{{Phys. Rev.} D}
 \def\PRL{{Phys.Rev.} Lett}
@@ -51,17 +43,6 @@
 \def\apjs{{ApJS}}
 \def\araa{{ARA\&A}}
 \def\ssr{{Space Sci. Rev.}} 
-
-\usepackage{etoolbox}% http://ctan.org/pkg/etoolbox
-\makeatletter
-\newcommand*{\emailA}[1]{\def\@emailA{#1}}
-\newcommand*{\emailB}[1]{\def\@emailB{#1}}
-\patchcmd{\maketitle}% <cmd>
-  {\ifthenelse{\isundefined{\@email}}{}{\addtomaketitle{\emailsymbol\emaillink{\@email}}}}% <search>
-  {\ifthenelse{\isundefined{\@emailA}}{}{\addtomaketitle{\emailsymbol\emaillink{\@emailA}}}%
-   \ifthenelse{\isundefined{\@emailB}}{}{\addtomaketitle{\emailsymbol\emaillink{\@emailB}}}}% <replace>
-  {}{}% <success><failure>
-\makeatother
  
 %----------------------------------------------------------------------------------------
 %   NAME AND CONTACT INFORMATION SECTION
@@ -71,24 +52,22 @@
 \familyname{Taylor} % Your last name
 
 % All information in this block is optional, comment out any lines you don't need
-\title{Publication List}
+\title{Curriculum Vitae}
 \address{TAPIR Group, MC $350$-$17$, California Institute of Technology}{1200 E. California Blvd, Pasadena, CA 91125}
-\phone[mobile]{+1 (626) 689-5832}
-\emailA{Stephen.R.Taylor@jpl.nasa.gov}
-%\emailB{steve.taylor1987@gmail.com}
+\phone[mobile]{+1~(626)~689-5832}
+\email{Stephen.R.Taylor@jpl.nasa.gov}
 \homepage{stevertaylor.github.io}
 \social[github]{stevertaylor}
-\social[linkedin][linkedin.com/in/stephen-taylor-a8164787]{stephen-taylor}
-
-%----------------------------------------------------------------------------------------
-\renewcommand\UrlFont{\color{blue}\rmfamily}
+\social[linkedin][linkedin.com/in/stephen-taylor-a8164787]{stephen-taylor $\;\;\bullet\;\;$ \today}
 
 \lhead{{\color{gray} \fontsize{10}{22}\mdseries\upshape{Stephen Taylor}}}
 \rhead{{\color{gray} \fontsize{10}{10}\mdseries\upshape{Stephen.R.Taylor@jpl.nasa.gov}}}
 
-\begin{document}
+%\definecolor{color1}{HTML}{1f77b4}
+%\hypersetup{urlcolor=color1,linkcolor=color1}
 
-\makecvtitle % Print the CV title
+\begin{document}
+\makecvtitle 
 \setlength{\parskip}{6pt}
 
 
