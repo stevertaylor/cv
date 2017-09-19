@@ -1,5 +1,6 @@
 # Dr Stephen R. Taylor, PhD MPhys FRAS
-### *NANOGrav PFC Senior Postdoctoral Fellow, Caltech Senior Postdoctoral Scholar* <br/>TAPIR Group, MC 350-17, California Institute of Technology 1200 E. California Blvd, Pasadena, CA 91125
+### *NANOGrav PFC Senior Postdoctoral Fellow, Caltech Senior
+#Postdoctoral Scholar* <br/>TAPIR Group, MC 350-17, <br/> California Institute of Technology, <br/> 1200 E. California Blvd, Pasadena, CA 91125
 
 Here is where I keep my (hopefully updated) CV, publication list, talks, etc.
 
