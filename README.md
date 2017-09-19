@@ -8,8 +8,8 @@ For more information on my research, please visit my personal homepage: [stevert
 
 PDF files can be accessed using the links below:
 
-- [**CV**](https://latexonline.cc/compile?git=https%3A%2F%2Fgithub.com%2Fstevertaylor%2Fcv&target=staylor_cv%2Fstaylor_cv.tex&command=pdflatex&trackId=1505847551951)
-- [**CV (long)**]()
+- [**CV (short)**](https://latexonline.cc/compile?git=https%3A%2F%2Fgithub.com%2Fstevertaylor%2Fcv&target=staylor_cv%2Fstaylor_cv_short.tex&command=pdflatex&trackId=1505849357930)
+- [**CV (long)**](https://latexonline.cc/compile?git=https%3A%2F%2Fgithub.com%2Fstevertaylor%2Fcv&target=staylor_cv%2Fstaylor_cv.tex&command=pdflatex&trackId=1505847551951)
 - [**Publication list**]()
 - [**Talk list**]()
 
