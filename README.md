@@ -1,9 +1,10 @@
-# Stephen Taylor, CV
+# Stephen R. Taylor
+# NANOGrav PFC Senior Postdoctoral Fellow, Caltech Senior Postdoctoral Scholar
 Here is where I keep my (hopefully updated) CV, publication list, talks, etc.
 
 For more information on my research, please visit my personal homepage: [stevertaylor.github.io](http://stevertaylor.github.io/)
 
-Pdf files can be accessed using the links below:
+PDF files can be accessed using the links below:
 
 - [**CV**]()
 - [**CV (long)**]()
