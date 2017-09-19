@@ -1,4 +1,5 @@
-# Stephen R. Taylor, PhD MPhys FRAS <br/> *NANOGrav PFC Senior Postdoctoral Fellow, Caltech Senior Postdoctoral Scholar*
+# Dr Stephen R. Taylor, PhD MPhys FRAS
+### *NANOGrav PFC Senior Postdoctoral Fellow, Caltech Senior Postdoctoral Scholar*
 Here is where I keep my (hopefully updated) CV, publication list, talks, etc.
 
 For more information on my research, please visit my personal homepage: [stevertaylor.github.io](http://stevertaylor.github.io/)
