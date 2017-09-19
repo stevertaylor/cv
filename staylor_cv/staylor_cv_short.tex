@@ -1,37 +1,32 @@
-%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
-% "ModernCV" CV and Cover Letter
-% LaTeX Template
-% Version 1.1 (9/12/12)
-%
-% This template has been downloaded from:
-% http://www.LaTeXTemplates.com
-%
-% Original author:
-% Xavier Danaux (xdanaux@gmail.com)
-%
-% License:
-% CC BY-NC-SA 3.0 (http://creativecommons.org/licenses/by-nc-sa/3.0/)
-%
-% Important note:
-% This template requires the moderncv.cls and .sty files to be in the same
-% directory as this .tex file. These files provide the resume style and themes
-% used for structuring the document.
-%
-%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+\documentclass[11pt,letterpaper,sans]{moderncv}
 
-%----------------------------------------------------------------------------------------
-%   PACKAGES AND OTHER DOCUMENT CONFIGURATIONS
-%----------------------------------------------------------------------------------------
+\usepackage{graphicx}
+\usepackage{longtable}
+\usepackage{multirow}
+\usepackage{textcomp}
+\usepackage{units}
+\usepackage{lineno}
+\usepackage{rotating}
+\usepackage{amssymb}
+\usepackage{amsmath}
+\usepackage[utf8]{inputenc}
+\usepackage{longtable}
+\usepackage{comment}
+\usepackage{xcolor}
 
-\documentclass[11pt,letterpaper,sans]{moderncv} % Font sizes: 10, 11, or 12; paper sizes: a4paper, letterpaper, a5paper, legalpaper, executivepaper or landscape; font families: sans or roman
 
-\moderncvstyle{banking} % CV theme - options include: 'casual' (default), 'classic', 'oldstyle' and 'banking'
-\moderncvcolor{blue} % CV color - options include: 'blue' (default), 'orange', 'green', 'red', 'purple', 'grey' and 'black'
-\usepackage[margin=1in]{geometry} % Reduce document margins
+\moderncvstyle{banking}                           
+\moderncvcolor{blue}    
+
+\renewcommand{\familydefault}{\sfdefault}
+\usepackage[top=1in,bottom=1in,left=1in,right=1in,bindingoffset=0cm]{geometry}
+\setlength{\hintscolumnwidth}{3cm}
+\usepackage{enumitem}
+\setlist{nolistsep}
 \usepackage{lastpage}
 \usepackage{mathabx}
-\usepackage{libertine}
 \cfoot{{\color{gray} Page \thepage\ of \pageref{LastPage}}}
+
 
 \def\prd{{Phys. Rev.} D}
 \def\PRL{{Phys.Rev.} Lett}
@@ -48,17 +43,6 @@
 \def\apjs{{ApJS}}
 \def\araa{{ARA\&A}}
 \def\ssr{{Space Sci. Rev.}} 
-
-\usepackage{etoolbox}% http://ctan.org/pkg/etoolbox
-\makeatletter
-\newcommand*{\emailA}[1]{\def\@emailA{#1}}
-\newcommand*{\emailB}[1]{\def\@emailB{#1}}
-\patchcmd{\maketitle}% <cmd>
-  {\ifthenelse{\isundefined{\@email}}{}{\addtomaketitle{\emailsymbol\emaillink{\@email}}}}% <search>
-  {\ifthenelse{\isundefined{\@emailA}}{}{\addtomaketitle{\emailsymbol\emaillink{\@emailA}}}%
-   \ifthenelse{\isundefined{\@emailB}}{}{\addtomaketitle{\emailsymbol\emaillink{\@emailB}}}}% <replace>
-  {}{}% <success><failure>
-\makeatother
  
 %----------------------------------------------------------------------------------------
 %   NAME AND CONTACT INFORMATION SECTION
@@ -69,68 +53,21 @@
 
 % All information in this block is optional, comment out any lines you don't need
 \title{Curriculum Vitae}
-\address{California Institute of Technology, 1200 E. California Blvd}{Pasadena, CA 91125}
-\phone[mobile]{+1 (626) 689-5832}
-\emailA{Stephen.R.Taylor@jpl.nasa.gov}
-%\emailB{steve.taylor1987@gmail.com}
+\address{TAPIR Group, MC $350$-$17$, California Institute of Technology}{1200 E. California Blvd, Pasadena, CA 91125}
+\phone[mobile]{+1~(626)~689-5832}
+\email{Stephen.R.Taylor@jpl.nasa.gov}
 \homepage{stevertaylor.github.io}
 \social[github]{stevertaylor}
-\social[linkedin][linkedin.com/in/stephen-taylor-a8164787]{stephen-taylor}
-
-
-\newlength\listtripleitemmaincolumnwidth
-
-\makeatletter
-\renewcommand*{\recomputecvlengths}{%
-  \setlength{\quotewidth}{0.65\textwidth}%
-  \setlength{\maincolumnwidth}{\textwidth-\separatorcolumnwidth-\hintscolumnwidth}%
-  \setlength{\listitemmaincolumnwidth}{\maincolumnwidth-\listitemsymbolwidth}%
-  \setlength{\listdoubleitemmaincolumnwidth}{\maincolumnwidth-\listitemsymbolwidth-\separatorcolumnwidth-\listitemsymbolwidth}%
-  \setlength{\listdoubleitemmaincolumnwidth}{0.66\listdoubleitemmaincolumnwidth}%
-  \setlength\listtripleitemmaincolumnwidth{.66\listdoubleitemmaincolumnwidth}%
-  \renewcommand{\headwidth}{\textwidth}%
-  \setlength{\parskip}{0\p@}%
-}
-\makeatother
-
-\newcommand{\cvdoublecolumn}[2]{%
-  \cvline{}{%
-  \begin{minipage}[t]{\listdoubleitemmaincolumnwidth}#1\end{minipage}%
-  \hfill%
-  \begin{minipage}[t]{\listdoubleitemmaincolumnwidth}#2\end{minipage}%
- }%
-}
-
-\newcommand{\cvtriplecolumn}[3]{%
-  \cvline{}{%
-  \begin{minipage}[t]{\listtripleitemmaincolumnwidth}#1\end{minipage}%
-  \hfill%
-  \begin{minipage}[t]{\listtripleitemmaincolumnwidth}#2\end{minipage}%
-  \hfill%
-  \begin{minipage}[t]{\listtripleitemmaincolumnwidth}#3\end{minipage}%
- }%
-}
-
-\newcommand{\cvreference}[9]{%
-  \textbf{#1}\newline% Name
-  \ifthenelse{\equal{#2}{}}{}{\addresssymbol~#2\newline}%
-  \ifthenelse{\equal{#3}{}}{}{#3\newline}%
-  \ifthenelse{\equal{#4}{}}{}{#4\newline}%
-  \ifthenelse{\equal{#5}{}}{}{#5\newline}%
-   \ifthenelse{\equal{#6}{}}{}{#6\newline}%
-  \ifthenelse{\equal{#7}{}}{}{#7\newline}%
-  \ifthenelse{\equal{#8}{}}{}{\emailsymbol~{\footnotesize \texttt{\emaillink[]{#8}}}\newline}
-    \ifthenelse{\equal{#9}{}}{}{\phonesymbol~#9}}
-
-%----------------------------------------------------------------------------------------
-\renewcommand\UrlFont{\color{blue}\rmfamily}
+\social[linkedin][linkedin.com/in/stephen-taylor-a8164787]{stephen-taylor $\;\;\bullet\;\;$ \today}
 
 \lhead{{\color{gray} \fontsize{10}{22}\mdseries\upshape{Stephen Taylor}}}
 \rhead{{\color{gray} \fontsize{10}{10}\mdseries\upshape{Stephen.R.Taylor@jpl.nasa.gov}}}
 
+%\definecolor{color1}{HTML}{1f77b4}
+%\hypersetup{urlcolor=color1,linkcolor=color1}
+
 \begin{document}
-\hypersetup{urlcolor=blue,linkcolor=blue}
-\makecvtitle % Print the CV title
+\makecvtitle 
 
 %----------------------------------------------------------------------------------------
 %   EDUCATION SECTION
@@ -225,14 +162,14 @@
 \cvitem{2011}{Interactive presentation at Cambridge's Institute of Astronomy Open Day} \vspace{-2mm}
 
 \subsection{Press releases} \vspace{-1mm}
-\cvitem{Feb 2016}{Lead-author: {\color{blue} \href{http://www.jpl.nasa.gov/news/news.php?feature=5505}{``\textit{Pulsar Web Could Detect Low-Frequency Gravitational Waves}''}}} \vspace{-0.5mm}
-\cvitem{Apr 2016}{Collaboration: {\color{blue} \href{https://public.nrao.edu/news/pressreleases/2016-nanograv-sbr}{``\textit{Gravitational Wave Search Provides Insights into Galaxy Evolution and Mergers}''}}} \vspace{-2mm}
+\cvitem{Feb 2016}{Lead-author: {\color{color1} \href{http://www.jpl.nasa.gov/news/news.php?feature=5505}{``\textit{Pulsar Web Could Detect Low-Frequency Gravitational Waves}''}}} \vspace{-0.5mm}
+\cvitem{Apr 2016}{Collaboration: {\color{color1} \href{https://public.nrao.edu/news/pressreleases/2016-nanograv-sbr}{``\textit{Gravitational Wave Search Provides Insights into Galaxy Evolution and Mergers}''}}} \vspace{-2mm}
 
 %\subsection{Media coverage} \vspace{-1mm}
 %\begin{itemize}
-%\item Interviewed and quoted by \textit{Science} magazine: {\color{blue} \href{http://science.sciencemag.org/content/351/6278/1124}{``In Search of Spacetime Megawaves''}} by Daniel Clery%, Science  11 Mar 2016: Vol. 351, Issue 6278, pp. 1124-1125
-%\item Quoted, with research featured in {\color{blue} \href{http://gizmodo.com/we-could-find-even-more-gravitational-waves-soon-with-p-1761021828}{\textit{Gizmodo}}}, {\color{blue} \href{https://www.engadget.com/2016/02/25/pulsars-gravitational-waves-black-holes/}{\textit{Engadget}}}, {\color{blue} \href{http://phys.org/news/2016-02-pulsar-web-low-frequency-gravitational.html}{\textit{Phys.org}}},  {\color{blue} \href{http://www.astronomy.com/news/2016/02/pulsar-web-could-detect-gravitational-waves}{\textit{Astronomy magazine}}}, {\color{blue} \href{http://www.universetoday.com/127562/the-future-of-gravitational-wave-astronomy-enhanced-ligo-pulsar-webs-space-interferometers-and-everything/}{\textit{Universe Today}}}
-%\item Collaboration research featured in {\color{blue} \href{https://www.sciencedaily.com/releases/2016/04/160405122609.htm}{\textit{Science Daily}}}, {\color{blue} \href{https://astronomynow.com/2016/04/06/gravitational-wave-search-provides-insights-into-galaxy-mergers/}{\textit{Astronomy Now} (online)}}
+%\item Interviewed and quoted by \textit{Science} magazine: {\color{color1} \href{http://science.sciencemag.org/content/351/6278/1124}{``In Search of Spacetime Megawaves''}} by Daniel Clery%, Science  11 Mar 2016: Vol. 351, Issue 6278, pp. 1124-1125
+%\item Quoted, with research featured in {\color{color1} \href{http://gizmodo.com/we-could-find-even-more-gravitational-waves-soon-with-p-1761021828}{\textit{Gizmodo}}}, {\color{color1} \href{https://www.engadget.com/2016/02/25/pulsars-gravitational-waves-black-holes/}{\textit{Engadget}}}, {\color{color1} \href{http://phys.org/news/2016-02-pulsar-web-low-frequency-gravitational.html}{\textit{Phys.org}}},  {\color{color1} \href{http://www.astronomy.com/news/2016/02/pulsar-web-could-detect-gravitational-waves}{\textit{Astronomy magazine}}}, {\color{color1} \href{http://www.universetoday.com/127562/the-future-of-gravitational-wave-astronomy-enhanced-ligo-pulsar-webs-space-interferometers-and-everything/}{\textit{Universe Today}}}
+%\item Collaboration research featured in {\color{color1} \href{https://www.sciencedaily.com/releases/2016/04/160405122609.htm}{\textit{Science Daily}}}, {\color{color1} \href{https://astronomynow.com/2016/04/06/gravitational-wave-search-provides-insights-into-galaxy-mergers/}{\textit{Astronomy Now} (online)}}
 %\end{itemize}
 
 \vspace{-2.5mm}
@@ -245,18 +182,18 @@ $\bullet$ Up-to-date metrics available at \url{https://scholar.google.com/citati
 $\bullet$ $5$ key publications are indicated below, with most recent first.
 \vspace{1pt}
 
-\cvitem{{\color{teal}1}}{\textit{\textbf{S.~R.~Taylor}}, M.~Vallisneri, J.~A.~Ellis, C.~M.~F.~Mingarelli, T.~J.~W.~Lazio, and R.~van Haasteren. ``\textit{Are We There Yet? Time to Detection of Nanohertz Gravitational  Waves Based on Pulsar-timing Array Limits}''. \href{http://iopscience.iop.org/article/10.3847/2041-8205/819/1/L6/meta}{{\color{blue} Astrophys. J. Lett, 819:L6}} (2016). \textbf{[9 citations]}} 
-\cvitem{{\color{teal}2}}{L.~Lentati, \textit{\textbf{S.~R.~Taylor}}, [and 34 others]. ``\textit{European Pulsar Timing Array limits on an isotropic stochastic gravitational-wave background}''. \href{http://mnras.oxfordjournals.org/content/453/3/2576}{{\color{blue} MNRAS, 453:2576--2598}} (2015). \textbf{[59 citations]}} 
-\cvitem{{\color{teal}3}}{\textit{\textbf{S.~R.~Taylor}}, C.~M.~F.~Mingarelli, J.~R.~Gair, [and 32 others]. ``\textit{Limits on Anisotropy in the Nanohertz Stochastic Gravitational Wave Background}''. \href{http://journals.aps.org/prl/abstract/10.1103/PhysRevLett.115.041101}{{\color{blue} Phys.Rev. Lett, 115(4):041101}} (2015). \textbf{[14 citations]}} 
-\cvitem{{\color{teal}4}}{\textit{\textbf{S.~R.~Taylor}} and J.~R.~Gair. ``\textit{Searching for anisotropic gravitational-wave backgrounds using pulsar timing arrays}''. \href{http://journals.aps.org/prd/abstract/10.1103/PhysRevD.88.084001}{{\color{blue} Phys. Rev. D, 88(8):084001}} (2013). \textbf{[31 citations]}} 
-\cvitem{{\color{teal}5}}{\textit{\textbf{S.~R.~Taylor}}, J.~R.~Gair, and I.~Mandel. ``\textit{Cosmology using advanced gravitational-wave detectors alone}''. \href{http://journals.aps.org/prd/abstract/10.1103/PhysRevD.85.023535}{{\color{blue} Phys. Rev. D, 85(2):023535}} (2012). \textbf{[34 citations]}}
+\cvitem{{\color{teal}1}}{\textit{\textbf{S.~R.~Taylor}}, M.~Vallisneri, J.~A.~Ellis, C.~M.~F.~Mingarelli, T.~J.~W.~Lazio, and R.~van Haasteren. ``\textit{Are We There Yet? Time to Detection of Nanohertz Gravitational  Waves Based on Pulsar-timing Array Limits}''. \href{http://iopscience.iop.org/article/10.3847/2041-8205/819/1/L6/meta}{{\color{color1} Astrophys. J. Lett, 819:L6}} (2016). \textbf{[9 citations]}} 
+\cvitem{{\color{teal}2}}{L.~Lentati, \textit{\textbf{S.~R.~Taylor}}, [and 34 others]. ``\textit{European Pulsar Timing Array limits on an isotropic stochastic gravitational-wave background}''. \href{http://mnras.oxfordjournals.org/content/453/3/2576}{{\color{color1} MNRAS, 453:2576--2598}} (2015). \textbf{[59 citations]}} 
+\cvitem{{\color{teal}3}}{\textit{\textbf{S.~R.~Taylor}}, C.~M.~F.~Mingarelli, J.~R.~Gair, [and 32 others]. ``\textit{Limits on Anisotropy in the Nanohertz Stochastic Gravitational Wave Background}''. \href{http://journals.aps.org/prl/abstract/10.1103/PhysRevLett.115.041101}{{\color{color1} Phys.Rev. Lett, 115(4):041101}} (2015). \textbf{[14 citations]}} 
+\cvitem{{\color{teal}4}}{\textit{\textbf{S.~R.~Taylor}} and J.~R.~Gair. ``\textit{Searching for anisotropic gravitational-wave backgrounds using pulsar timing arrays}''. \href{http://journals.aps.org/prd/abstract/10.1103/PhysRevD.88.084001}{{\color{color1} Phys. Rev. D, 88(8):084001}} (2013). \textbf{[31 citations]}} 
+\cvitem{{\color{teal}5}}{\textit{\textbf{S.~R.~Taylor}}, J.~R.~Gair, and I.~Mandel. ``\textit{Cosmology using advanced gravitational-wave detectors alone}''. \href{http://journals.aps.org/prd/abstract/10.1103/PhysRevD.85.023535}{{\color{color1} Phys. Rev. D, 85(2):023535}} (2012). \textbf{[34 citations]}}
 
 \vspace{-3.5mm}
 \section{Presentations}
 
 $\bullet$ \textbf{$33$ oral presentations (of which $13$ were invited), with $4$ conference leadership roles.}
 
-$\bullet$ Recent presentations are available to view at {\color{blue} \href{https://speakerdeck.com/stevertaylor}{https://speakerdeck.com/stevertaylor}}.
+$\bullet$ Recent presentations are available to view at {\color{color1} \href{https://speakerdeck.com/stevertaylor}{https://speakerdeck.com/stevertaylor}}.
 
 %----------------------------------------------------------------------------------------
 %   COMPUTER SKILLS SECTION
