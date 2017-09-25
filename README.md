@@ -9,7 +9,7 @@ For more information on my research, please visit my personal homepage: [stevert
 PDF files can be accessed using the links below:
 
 - [**CV (short)**](https://latexonline.cc/compile?git=https%3A%2F%2Fgithub.com%2Fstevertaylor%2Fcv&target=staylor_cv%2Fstaylor_cv_short.tex&command=pdflatex&trackId=1505849357930)
-- [**CV (long)**](https://latexonline.cc/compile?git=https%3A%2F%2Fgithub.com%2Fstevertaylor%2Fcv&target=staylor_cv%2Fstaylor_cv.tex&command=pdflatex&trackId=1505847551951)
+- [**CV (long)**](https://latexonline.cc/compile?git=https%3A%2F%2Fgithub.com%2Fstevertaylor%2Fcv&target=staylor_cv%2Fstaylor_cv.tex&command=pdflatex&trackId=1506377760243)
 - [**Publication list**](https://latexonline.cc/compile?git=https%3A%2F%2Fgithub.com%2Fstevertaylor%2Fcv&target=staylor_cv%2Fstaylor_publist.tex&command=pdflatex&trackId=1505850155140)
 - [**Talk list**](https://latexonline.cc/compile?git=https%3A%2F%2Fgithub.com%2Fstevertaylor%2Fcv&target=staylor_cv%2Fstaylor_talklist.tex&command=pdflatex&trackId=1506307206950)
 - [**References**](https://latexonline.cc/compile?git=https%3A%2F%2Fgithub.com%2Fstevertaylor%2Fcv&target=staylor_cv%2Fstaylor_reflist.tex&command=pdflatex&trackId=1505854334147)
