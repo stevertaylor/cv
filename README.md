@@ -1,8 +1,8 @@
 # Dr Stephen R. Taylor, PhD MPhys FRAS
 ### *Assistant Professor of Physics & Astronomy* <br/>Department of Physics & Astronomy, <br/> 6301 Stevenson Center, <br/> Nashville, TN 37235, USA 
 
-Listed below are my CV, publication list, and list of
-presentations. My CV is available in both short and long form.
+Listed below are links to my curriculum vitae, full publication list, and list of
+presentations. 
 
 For more information on my research, please visit my personal homepage: [stevertaylor.github.io](http://stevertaylor.github.io/)
 
